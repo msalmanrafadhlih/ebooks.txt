@@ -1,0 +1,59 @@
+====================================== START
+
+# Loops
+- Loops can execute a block of code as long as a specified condition is reached.
+
+- Loops are handy because they save time, reduce errors, and they make code more readable. For example, instead of writing the same line 10 times to print some text, you can use a loop to repeat it for you.
+
+- Rust has three types of loops: loop, while, and for.
+
+# loop
+- loop is the simplest of Rust's three loop types.
+- It will run forever unless you tell it to stop:
+
+Example:
+loop {
+  println!("This will repeat forever!");
+}
+
+> Warning: This loop never stops! You will need to press Ctrl + C to end the program.
+
+To stop a loop, use the break keyword:
+
+Example:
+let mut count = 1;
+
+loop {
+  println!("Hello World!");
+
+  if count == 3 {
+    break;
+  }
+
+  count += 1;
+} 
+
+Example Explained:
+- This prints "Hello World!" 3 times.
+- It uses a counter to keep track of how many times it has looped.
+- The counter starts at 1 (let mut count = 1;).
+- Each time the loop runs, the counter goes up by 1: (count += 1;).
+- When it reaches 3, the loop stops.
+
+Example:
+let mut count = 1;
+
+let result = loop {
+  println!("Hello!");
+
+  if count == 3 {
+    break count; // Stop the loop and return the number 3
+  }
+
+  count += 1;
+};
+
+println!("The loop stopped at: {}", result); 
+
+> This loop prints "Hello!" until count reaches 3, then stops and returns that number.
+> Note: When you save the result of a loop into a variable, you must put a semicolon (;) at the end.

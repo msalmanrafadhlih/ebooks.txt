@@ -1,0 +1,108 @@
+====================================== START
+
+# Conditions and IF..ELSE
+
+You already know that Rust supports familiar comparison conditions from mathematics, such as:
+
+    Less than: a < b
+    Less than or equal to: a <= b
+    Greater than: a > b
+    Greater than or equal to: a >= b
+    Equal to a == b
+    Not Equal to: a != b
+
+You can use these conditions to perform different actions for different decisions.
+
+Rust has the following conditional statements:
+
+    Use if to specify a block of code to be executed, if a specified condition is true
+    Use else to specify a block of code to be executed, if the same condition is false
+    Use else if to specify a new condition to test, if the first condition is false
+    Use match to specify many alternative blocks of code to be executed
+
+Note: Unlike many other programming languages, if..else can be used as a statement or as an expression (to assign a value to a variable) in Rust. See an example at the bottom of the page to better understand it.
+
+# IF
+use if to specify a block of code to be excuted if a condition is true.
+
+Example:
+if 7 > 5 {
+	println!("7 is greater than 5.");
+}
+
+you can also test variables:
+
+Example:
+let x = 7;
+let y = 5;
+
+if x > y {
+	println!("x is greater than y.");
+}
+
+# IF...ELSE
+if the condition is not true, you can use else to run different code:
+
+Example:
+let age = 16;
+
+if age >= 18 {
+  println!("You can vote.");
+} else {
+  println!("You are too young to vote.");
+}
+
+# ELSE IF
+you can check multiple conditions usind ELSE IF:
+
+Example:
+let score = 85;
+
+if score >= 90 {
+  println!("Grade: A");
+} else if score >= 80 {
+  println!("Grade: B");
+} else if score >= 70 {
+  println!("Grade: C");
+} else {
+  println!("Grade: F");
+}
+
+# Using IF as an Expression
+In Rust, if...else can also be used as an expression.
+
+- This means you can assign the result of an if to a variable:
+
+Example:
+let time = 20;
+let greeting = if time < 18 {
+  "Good day."
+} else {
+  "Good evening."
+};
+println!("{}", greeting);
+
+- when using if as an expression, you must inclusde else. This ensures the result always has a value.
+
+# Simplified Syntax
+if each block only contains a single expression, you can write it in a shorter wat on one line:
+
+Example:
+let time = 20;
+let greeting = if time < 18 { "Good day." } else { "Good evening." };
+println!("{}", greeting);
+
+ > Tip: This works similarly to the ternary operator (condition ? value1 : value2) in languages like Java or C. However, Rust does not have a ternary operator, but using if...else as an expression gives you the same effect.
+
+# Don't Mix Types
+ > Note: The value from if and else must be the same type, like two pieces of text or two numbers (in the example above, both are strings).
+ > When you mix types, like a string and an integer, you'll get an error:
+
+Examople:
+let number = 5;
+let result = if number < 10 { "Too small" } else { 100 };
+println!("{}", result);
+
+Result:
+error[E0308]: `if` and `else` have incompatible types 
+

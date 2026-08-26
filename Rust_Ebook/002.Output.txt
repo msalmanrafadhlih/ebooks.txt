@@ -1,0 +1,40 @@
+====================================== START
+
+Output (print text)
+To print text in Rust, you can use the println!() macro:
+
+Example:
+println!("Hello World!!");
+
+you can use as many println!() macros as you want. Note that it will add a new line for each macro:
+
+Example:
+println!("Hello World!");
+println!("I am learning Rust.");
+println!("It is awesome!"); 
+
+# The print Macro:
+There is alse a print!() macro, which is similar to println!().
+The only differences is that it does not insert a new line at the end of the output.
+
+Example:
+print!("Hello World! ");
+print!("I will print on the same line.");
+
+> Note that we add an exttra space when needed (after "Hello World" in the example above), for better readability.
+in this tutorial, we will only use println!() as it makes it easier to read the output of code.
+
+# Add New Lines Manually
+if you really wan to add a new line in print!(), you can use the \n character:
+
+Example:
+print!("Hello World!"\n);
+print!("I will print on the same line.");
+
+just like with many other programming languages, you can use the newline character(\n) to break up line. It is an escape sequence, and it forces the cursor to change its position to the beginning of the next line on the screen. This results in a new line.
+
+You can also break up a line in the middle of a sentence. This goes for both print!() and println!():
+
+Example:
+println!("Hello World!\nThis line was broken up!");
+

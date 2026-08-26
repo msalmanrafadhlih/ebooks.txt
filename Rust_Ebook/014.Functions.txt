@@ -1,0 +1,70 @@
+====================================== START
+
+# Functions
+- A function is a block of code that only runs when you call it.
+Functions are used to organize your code, avoid repeating yourself, and make your program easier to understand.
+
+# Creating a Function
+To create a function, use the fn keyword, followed by the function name and a set of parentheses () and curly braces {}:
+
+Example:
+fn function_name() {
+  // code to be executed
+}
+
+# Calling a Function
+Now that you have created a function, you can execute it by calling it.
+- To call a function, write the name of the function followed by two parantheses ().
+
+Example:
+// Create a function
+fn say_hello() {
+  println!("Hello from a function!");
+}
+
+say_hello(); // Call the function
+
+# Functions with Parameters
+- You can send information into a function using parameters. Parameters are written inside the parentheses ().
+
+Example:
+fn greet(name: &str) {
+  println!("Hello, {}!", name);
+}
+
+greet("John");
+
+In this example, the function takes a string parameter called name and prints it in the greeting message.
+
+# Functions with Return Values
+A function can also return a value.
+- Use the  -> symbol in the function header to show what type of value will be returned.
+- Inside the function, use the return keyword to send the value back:
+
+Example:
+fn add(a: i32, b: i32) -> i32 {
+  return a + b;
+}
+
+let sum = add(3, 4);
+println!("Sum is: {}", sum);
+
+> This function adds two numbers and returns the result.
+> In Rust, you can omit the return keyword. Just write the value on the last line of the function, without a semicolon:
+
+Example:
+fn add(a: i32, b: i32) -> i32 {
+  a + b
+}
+
+let sum = add(3, 4);
+println!("Sum is: {}", sum);
+
+> The last line a + b is automatically returned.
+> Both examples do the same thing. It is up to you which one to use.
+
+# Why Use Functions?
+    To organize your code
+    To avoid repeating the same code
+    To make your programs easier to read and change
+

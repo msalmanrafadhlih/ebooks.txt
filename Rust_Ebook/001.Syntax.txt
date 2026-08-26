@@ -1,0 +1,23 @@
+====================================== START
+You have already seen the following code a couple of times in the first chapters. Let's break it down to understand it better:
+
+- Code:
+
+fn main() {
+	println!("Hello World!!");
+}
+
+Example Explain
+- line 1: fn main() is something that always appears at the beginning of every Rust program. main() is called a function, and any code inside its curly brackets {} will be executed.
+
+- line 2: println!() is a macro, used to output/print text to the screen. In our example it will output "Hello World!". To end the code, you must remember a semicolon (;).
+
+What is Macro?
+A macro is like a function, but with an exclamation mark (!) after it. Don't worry about the terminology for now. For now, just know that macros are similar to functions (they execute things), but they do not always follow the same rules as functions. You will learn more about macros later.
+
+Good to know: The Rust compiler ignores white spaces.
+
+The code above could also been written as:
+fn main(){println!("Hello World!");}
+
+However, multiple lines and indentation makes the code more readable.

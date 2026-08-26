@@ -1,0 +1,57 @@
+====================================== START
+
+# Variables
+
+Variables are containers for storing data values, like numbers and characters.
+
+To create a variable in Rust, use the let keyword and specify the name of the variable (name in this example):
+
+Example:
+let name: "John";
+println!("My first name is: {}", name);
+
+What is {}?
+Rust uses {} as a placeholder in println!() to show variable values.
+
+In the example above, the output will be "My first name is: John".
+
+You can use as many placeholders as you like:
+
+Example:
+let name = "John";
+let age = "30";
+println!("{} is {} years old.", name, age);
+
+# Using Placeholder in Order
+When you use many placeholder, the values you pass are used in the same order.
+
+in the example above:
+ - The first {} gets replaces with name ("John")
+ - The Second {} gets replaced with age (30)
+
+> important: The order matter. if you switch the values, the output will change:
+
+Example
+This example shows wrong order:
+let name = "John";
+let age = 30;
+println!("{} is {} years old.", age, name);  // Outputs 30 is John years old 
+
+# Variable Values Cannot be Changed by Default
+
+By default, variables in Rust cannot be changed after they are created
+
+Example:
+let x = 5;
+x = 10; // Error
+println!("{}", x);
+
+# Change Variable Values
+
+If you want to change the value of a variable, you must use the mut keyword (which means mutable/changeable):
+
+Example:
+let mut x = 5;
+println!("Before: {}", x);
+x = 10;
+println!("After: {}", x); 

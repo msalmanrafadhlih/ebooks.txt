@@ -1,0 +1,103 @@
+====================================== START
+
+# Operators
+Operators are used to perform operations on values and variables.
+
+Rust supports many common operators, like:
+	- Arithmetic Operators
+	- Assignment Operators
+	- Comparison Operators
+	- Logical Operators
+
+# Arithmetic Operators
+Arithmetic operators are used to do basic math:
+
+1. "+" Addition
+2. "-" Subtraction
+3. "*" Multiplication
+4. "/" Division
+5. "%" Remainder (modulus)
+
+Example: 
+ fn main() {
+  let add = 5 + 3;
+  let sub = 10 - 4;
+  let mul = 6 * 2;
+  let div = 12 / 3;
+  let rem = 10 % 3;
+
+  println!("Add: {}", add);
+  println!("Sub: {}", sub);
+  println!("Mul: {}", mul);
+  println!("Div: {}", div);
+  println!("Rem: {}", rem);
+}
+
+# Assigment Operators
+Assignment operators are used to assign and update values:
+
+1. "="	 Same As x = x
+2. "+=" Same As x = x + y
+3. "-=" Same As x = x - y
+4. "*=" Same As x = x * y
+5. "/=" Same As x = x / y
+6. "%=" Same As x = x % y
+
+Example:
+fn main() {
+  let mut x = 10;
+  println!("Start: {}", x);
+
+  x += 5;
+  println!("After += 5: {}", x);
+
+  x -= 2;
+  println!("After -= 2: {}", x);
+
+  x *= 2;
+  println!("After *= 2: {}", x);
+
+  x /= 3;
+  println!("After /= 3: {}", x);
+
+  x %= 4;
+  println!("After %= 4: {}", x);
+}
+
+# Comparison Operators
+Comparison operations compare values and return true or false:
+
+1. == "Equal to" 5 == 5
+2. != "Not equal to" 5 != 3
+3. >  "Greater than" 7 > 3
+4. <  "Less than" 2 < 5
+5. >= "Greater than or equal to" 5 >= 5
+6. <= "Less than or equal to" 3 <= 4
+
+Example:
+ fn main() {
+  let a = 5;
+  let b = 10;
+
+  println!("5 == 10: {}", a == b);
+  println!("5 != 10: {}", a != b);
+  println!("5 < 10: {}", a < b);
+  println!("5 >= 10: {}", a >= b);
+}
+
+# Logical Operators
+Logical operator are used to work with boolean values:
+
+1. "&&" AND true if both values are true
+2. "||" OR  true if at least one is true
+3. "!"  NOT inverts the boolean value
+
+Example:
+fn main() {
+  let logged_in = true;
+  let is_admin = false;
+
+  println!("Is regular user: {}", logged_in && !is_admin);
+  println!("Has any access: {}", logged_in || is_admin);
+  println!("Not logged in: {}", !logged_in);
+}

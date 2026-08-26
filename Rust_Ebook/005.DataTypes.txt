@@ -1,0 +1,79 @@
+====================================== START
+
+# Data Types
+ - Unlike many other programming languages, variables in Rust do not need to be declared with a specified type (like "String" for text or "Int" for numbers, if you are familiar with those from C or Java).
+ - In Rust, the type of a variable is decided by the value you give it. Rust looks at the value and automatically chooses the right type:
+
+Example:
+let my_num = 5;         // integer
+let my_double = 5.99;   // float
+let my_letter = 'D';    // character
+let my_bool = true;     // boolean
+let my_text = "Hello";  // string
+
+ - However, it is possible to explicitly tell Rust what type a value should be:
+
+Example:
+let my_num: i32 = 5;          // integer
+let my_double: f64 = 5.99;    // float
+let my_letter: char = 'D';    // character
+let my_bool: bool = true;     // boolean
+let my_text: &str = "Hello";  // string
+
+
+You will learn more about when you need to specify the type later in this tutorial. Either way, it is good to understand what the different types mean.
+
+Basic data types in Rust are divided into different groups:
+ - Numbers - Whole numbers and decimal numbers (i32, f64)
+ - Characters - Single letters or symbols (char)
+ - Strings - Text, a sequence of characters (&str)
+ - Booleans - True or false values (bool)
+
+# Numbers
+Number types are divided into two groups: integer types and floating point types.
+
+1. Integer (i32)
+The i32 type is used to store whole numbers, positive or negative (such as 123 or -456), without decimals:
+
+Example:
+let age: i32 = 25;
+println!("Age is: {}", age); 
+
+2. Floating Point (f64)
+The f64 type is used to store numbers containing one or more decimals:
+
+Example:
+let price: f64 = 19.99;
+println!("Price is: ${}", price); 
+
+# Characters (char)
+- The char type is used to store a single character. A char value must be surrounded by single quotes, like 'A' or 'c':
+
+Example:
+let myGrade: char = 'B';
+println!("{}", myGrade); 
+
+# Strings (&str)
+- The &str type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
+
+Example:
+let name: &str = "John";
+println!("Hello, {}!", name); 
+
+# Booleans (bool)
+- The bool type can only take the values true or false:
+
+Example:
+let is_logged_in: bool = true;
+println!("User logged in? {}", is_logged_in); 
+
+# Combining Data Types.
+- You can mix different types in the same program:
+
+Example:
+let name = "John";
+let age = 28;
+let is_admin = false;
+println!("Name: {}", name);
+println!("Age: {}", age);
+println!("Admin: {}", is_admin); 

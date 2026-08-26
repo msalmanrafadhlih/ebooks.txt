@@ -1,0 +1,50 @@
+====================================== START
+
+What is Rust?
+is a modern programming language.
+it is designed for performance, reliability, and safety - especially safe handling od memory.
+
+Why Learn Rust?
+- It is one of the fastest-growing programming languages in the world
+- Learning Rust makes it easier to pick up other languages like Java, Python, C++, and C#, because the syntax is similar.
+- Rust is very fast
+- Rust requires less memory compared to many other languages
+- Rust is used to build web servers, creating games, operating systems, and much more!
+
+Difference between Rust and C/C++
+- The main difference is that Rust is "safe by default".
+- In Rust, memory access is automatically checked by the compiler, which helps you avoid common bugs like crashes, leaks, and unsafe memory behavior.
+- In C and C++, you must manually manage memory, which can lead to errors if you are not careful
+
+Get Started With Rust.
+
+1. Instalation.
+- using terminal `curl https://sh.rustup.rs -sSf | sh`
+
+2. Check Instalation.
+after installing :
+rustc --version
+cargo --version
+
+3. create 
+- Use Cargo to create a new Project:
+example: cargo new <Project-name>
+cargo new my-first-project
+
+- the project folder will look something like this:
+
+
+4. Basic Code - Hello World.
+code: 
+
+fn main () {
+	println!("Hello World!!");
+}
+
+Build and Run the Project:
+- for run:
+cargo run
+
+- for build:
+cargo build
+

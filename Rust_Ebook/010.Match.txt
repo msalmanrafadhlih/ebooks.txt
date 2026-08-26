@@ -1,0 +1,68 @@
+====================================== START
+
+# Match
+When you have many choices, using match is easier than writing lots of if...else.
+- match is used to select one of many code blocks to be executed:
+
+Example:
+fn main() {
+  let day = 4;
+
+  match day {
+    1 => println!("Monday"),
+    2 => println!("Tuesday"),
+    3 => println!("Wednesday"),
+    4 => println!("Thursday"),
+    5 => println!("Friday"),
+    6 => println!("Saturday"),
+    7 => println!("Sunday"),
+    _ => println!("Invalid day."),
+  }
+}
+
+Example Explaned:
+- The match variable (day) is evaluated once.
+- The value of the day variable is compared with the values of each "branch"
+- Each branch starts with a value, followed by => and a result
+- If there is a match, the associated block of code is executed
+- _ is used to specify some code to run if there is no match (like default in other languages).
+- In the example above, the value of day is 4, meaning "Thursday" will be printed
+
+# Multiple Matches
+You can match multiple values at once using the | operator (OR);
+
+Example:
+ fn main() {
+  let day = 6;
+
+  match day {
+    1 | 2 | 3 | 4 | 5 => println!("Weekday"),
+    6 | 7 => println!("Weekend"),
+    _ => println!("Invalid day"),
+  }
+}
+
+# match with a Return Value
+- Just like if, match can alse return a value:
+This means you can save the result of a match into a variable:
+
+Example:
+fn main() {
+  let day = 4;
+
+  let result = match day {
+    1 => "Monday",
+    2 => "Tuesday",
+    3 => "Wednesday",
+    4 => "Thursday",
+    5 => "Friday",
+    6 => "Saturday",
+    7 => "Sunday",
+    _ => "Invalid day.",
+  };
+
+  println!("{}", result);
+}
+
+> Notes: Each part of the match branches must be the same type - just like with if...else
+

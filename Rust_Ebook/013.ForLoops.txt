@@ -1,0 +1,79 @@
+====================================== START
+
+# FOR LOOPS
+- When you know exactly how many times you want to loop through a block of code, use the for loop together with the in keyword, instead of a while loop:
+
+Example:
+for i in 1..6 {
+  println!("i is: {}", i);
+}
+
+> This prints numbers from 1 to 5.
+> Note: 1..6 means from 1 up to (but not including) 6.
+> Note: Rust handles the counter variable (i) automatically, unlike many other programming languages. You don't need to declare or increment it manually.
+
+# Inclusive Range
+- If you want to include the last number, use ..= (two dots and an equals sign):
+
+Example:
+for i in 1..=6 {
+  println!("i is: {}", i);
+}
+
+> This prints numbers from 1 to 6, including 6.
+
+# Break and Continue
+- Just like other loops, you can use break to stop the loop and continue to skip a value:
+
+Example:
+for i in 1..=10 {
+  if i == 3 {
+    continue; // skip 3
+  }
+  if i == 5 {
+    break; // stop before printing 5
+  }
+  println!("i is: {}", i);
+}
+
+> This prints 1, 2, and 4. It skips 3 and stops before 5.
+
+# Rust Loops Summary
+Rust has three types of loops that let you run code over and over again. Each one is used in different situations:
+
+1. loop
+- The simplest kind of loop. It runs forever unless you stop it with break.
+Use loop when you don't know in advance how many times to repeat.
+
+loop {
+  // do something
+  if condition {
+    break;
+  }
+}
+
+2. while
+- Repeats code while a condition is true. It checks the condition before each loop.
+Use while when you want to repeat code until something happens.
+
+while count <= 5 {
+  println!("{}", count);
+  count += 1;
+}
+
+3. for
+- Repeats code a fixed number of times.
+Use for when you know exactly what to loop through.
+
+for i in 1..=5 {
+  println!("{}", i);
+}
+
+# Extra Keywords
+You can use these in any loop:
+
+    break - stop the loop
+    continue - skip a value in the loop
+
+> Now that you know how loops work, you are ready to start working with functions and reusable code!
+

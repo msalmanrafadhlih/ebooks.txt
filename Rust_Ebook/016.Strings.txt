@@ -1,0 +1,73 @@
+====================================== START
+
+# Strings
+Strings are used to store text.
+- You have already learned that you can use the &str type to create a string:
+
+Example:
+let greeting: &str = "Hello";
+println!("{}", greeting);
+
+> Note that strings are surrounded by double quotes ("Hello").
+ - There are two main types of strings in Rust:
+
+    &str - is called "string slices", and is used for fixed text like "Hello"
+    String - used when you need a string that can change
+
+> In this chapter, you will mostly work with the String type because it is more flexible and can be changed over time.
+
+# Create a String
+You can create a String from a string literal using the to_string() method or the String::from() function:
+
+Example:
+let text1 = "Hello World".to_string();
+
+Example:
+let text2 = String::from("Hello World");
+
+> It is up to you which one to choose - both to_string() and String::from() are very common in Rust.
+
+# Change a String
+Strings are mutable, so you can change them if they are declared with mut.
+- Use push_str() to add text to a string:
+
+Example: 
+let mut greeting = String::from("Hello");
+greeting.push_str(" World");
+println!("{}", greeting); // Hello World
+
+> Use push() to add one character:
+
+Example:
+let mut word = String::from("Hi");
+word.push('!');
+println!("{}", word); // Hi!
+
+# Concatenate Strings
+You can combine strings using the format! macro:
+
+Example:
+let s1 = String::from("Hello");
+let s2 = String::from("World!");
+let s3 = String::from("What a beautiful day!");
+let result = format!("{} {} {}", s1, s2, s3);
+println!("{}", result);
+
+> You can also use the + operator to combine strings, but it can get messy with many values.
+
+Example:
+let s1 = String::from("Hello");
+let s2 = String::from("World!");
+let s3 = String::from("What a beautiful day!");
+let result = s1 + " " + &s2 + " " + &s3;
+println!("{}", result);
+
+> Note: You can only add a &str to a String with +. That is why &s2 and &s3 (a string slice) is used here.
+> Good to know: format! is often the preferred choice than using + for combining strings.
+
+# String Length
+You can use the .len() method to get the length of a string:
+
+Example:
+let name = String::from("John");
+println!("Length: {}", name.len()); // 4 

@@ -1,0 +1,58 @@
+====================================== START
+
+# Booleans
+Very often, in programming, you will need a data type that can only have one of two values, like:
+
+    YES / NO
+    ON / OFF
+    TRUE / FALSE
+
+For this, Rust has a bool data type, which is known as booleans.
+
+Booleans represent values that are either true or false.
+
+# Creating Boolean Variables
+
+- You can store a boolean value in a variable using the bool type:
+
+Example:
+let is_programming_fun: bool = true;
+let is_fish_tasty: bool = false;
+
+println!("Is Programming Fun? {}", is_programming_fun);
+println!("Is Fish Tasty? {}", is_fish_tasty);
+
+- Remember that Rust is smart enough to understand that true and false values are boolean values, meaning that you don't have to specify the bool keyword:
+
+Example:
+let is_programming_fun = true;
+let is_fish_tasty = false;
+
+println!("Is Programming Fun? {}", is_programming_fun);
+println!("Is Fish Tasty? {}", is_fish_tasty);
+
+# Boolean from Comparison
+- Most of the time, there is no need to type true or false yourself. Instead, boolean values come from comparing values using operators like == or >:
+
+Example:
+let age = 20;
+let can_vote = age >= 18;
+
+println!("Can vote? {}", can_vote); 
+
+> Here, age >= 18 returns true, as long as age is 18 or older.
+
+# Using Booleans in if Statements
+Boolean values are often used in if statements to decide what code should run:
+
+Example:
+let is_logged_in = true;
+
+if is_logged_in {
+  println!("Welcome back!");
+} else {
+  println!("Please log in.");
+}
+
+> Cool, right? Booleans are the basis for all Rust comparisons and conditions. You will learn more about if and else statements in the next chapter.
+
