@@ -1,0 +1,62 @@
+====================================== START
+
+Quickshell (2023) – oleh outfoxxed (GitHub)
+
+contoh kode:
+import Quickshell
+import QtQuick
+
+ShellRoot {
+    PanelWindow {
+        width: 1920
+        height: 30
+        anchors.top: true
+        
+        Text {
+            anchors.centerIn: parent
+            text: "Quickshell: Modern, Reactive, Powerful."
+            color: "white"
+        }
+    }
+}
+
+"Bukan sekadar bahasa pemrograman, melainkan framework/tool construction kit untuk membangun desktop shell (panel, dock, wallpaper, bar) menggunakan kekuatan QML dan JavaScript. Quickshell adalah jawaban bagi para ricer yang merasa eww atau polybar kurang fleksibel dalam menangani logika UI yang kompleks."
+
+Motto:
+"A Wayland shell construction kit powered by QtQuick."
+
+spesialisasi:
+Membuat bar, dashboard, launcher, dan widget desktop yang reaktif di lingkungan Wayland (dan X11).
+
+Extension:
+.qml
+
+Sistem Tipe:
+Static (QML) & Dynamic (JavaScript)
+
+kepribadian:
+Sangat modern, visual, dan reaktif. Ia tidak suka 'polling' data secara manual; ia lebih suka jika data mengalir dan UI berubah secara otomatis (reactive). Ia adalah sepupu eww yang lebih elegan karena menggunakan mesin Qt.
+
+Keunggulan:
+Performa rendering yang sangat halus (hardware accelerated), integrasi JavaScript yang matang untuk logika rumit, dan sistem layouting QtQuick yang jauh lebih powerful dibanding CSS pada GTK (seperti di eww).
+
+tingkat kesulitan:
+Menengah. Jika kamu sudah paham CSS dan JavaScript, kamu akan cepat beradaptasi. Namun, memahami siklus hidup komponen QML dan integrasi sistemnya membutuhkan sedikit waktu ekstra.
+
+Package Manager:
+Tidak ada secara khusus (biasanya dikelola via Nix/sistem paket distro).
+
+Framework/Library:
+QtQuick, QtGraphicalEffects, Quickshell API.
+
+contoh Proyek terkenal:
+Konfigurasi bar Wayland kustom, dashboard sistem ala macOS/iOS di Linux, dan widget desktop interaktif.
+
+Popularitas:
+Sedang (Rising Star di komunitas Wayland ricing). Menjadi alternatif favorit bagi pengguna Hyprland atau Sway yang ingin UI lebih 'berkelas'.
+
+platform:
+Linux (Wayland & X11), System, DesktopApps, Ricing.
+
+Batasan:
+Masih dalam pengembangan aktif (beberapa fitur mungkin berubah), ketergantungan pada runtime Qt yang cukup besar, dan dokumentasi yang belum sedalam tool yang sudah lama ada.

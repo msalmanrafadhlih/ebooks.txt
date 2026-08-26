@@ -1,0 +1,60 @@
+====================================== START
+
+Shell Script (1977) – oleh Stephen Bourne (sh), Brian Fox (bash), Paul Falstad (zsh)
+
+Contoh kode:
+#!/bin/bash
+# Skrip sederhana untuk cek koneksi
+TARGET="google.com"
+
+if ping -c 1 $TARGET &> /dev/null; then
+    echo "Koneksi ke $TARGET aman!"
+else
+    echo "Waduh, internet lagi putus."
+fi
+
+# Looping file di direktori saat ini
+for file in *.lua; do
+    echo "Menemukan file config: $file"
+done
+
+"Bukan sekadar bahasa, melainkan 'lem' yang menyatukan seluruh sistem operasi Unix-like. Shell Script memungkinkan kamu memberikan perintah ke kernel, mengotomatisasi tugas membosankan, dan menghubungkan satu program dengan program lainnya secara efisien."
+
+Motto:
+"The universal glue of the system."
+
+spesialisasi:
+Otomasi sistem (Sysadmin), DevOps, CI/CD pipelines, konfigurasi lingkungan (dotfiles), dan instalasi perangkat lunak.
+
+Extension:
+.sh, .bash, .zsh, .fish
+
+Sistem Tipe:
+Weak & Dynamic (Hampir semuanya dianggap sebagai string/teks).
+
+kepribadian:
+Seorang montir yang serba bisa dan pragmatis. Ia tidak peduli dengan keindahan kode selama tugas selesai dengan cepat. Ia tahu semua jalan pintas di dalam sistem dan selalu siap siaga di terminal.
+
+Keunggulan:
+Sangat ringan, tidak perlu dikompilasi, tersedia secara native di hampir semua server Linux/macOS, dan memiliki kemampuan 'piping' (mengalirkan data antar program) yang sangat kuat.
+
+tingkat kesulitan:
+Mudah untuk pemula (tugas sederhana), namun menjadi Rumit (sakit kepala) saat harus menangani spasi dalam nama file, regex yang kompleks, atau portabilitas antar shell yang berbeda.
+
+Package Manager:
+Tidak ada secara native, namun sering dikelola via Homebrew, Nix, atau sistem paket distro (apt, pacman).
+
+Dialek Terkenal:
+Bash (Standar Linux), Zsh (Favorit power-user), Fish (Ramah pengguna), Sh (Klasik/Posix).
+
+contoh Proyek terkenal:
+Skrip instalasi (seperti `curl | sh`), proses booting Linux (Init scripts), skrip setup NixOS, dan otomatisasi Termux yang sering kamu gunakan.
+
+Popularitas:
+Sangat Masif dan Wajib bagi setiap Sysadmin, DevOps, dan pengguna Linux/Unix.
+
+platform:
+System, Scripting, Automation, DevOps, Infrastructure, Terminal.
+
+Batasan:
+Sangat lambat untuk komputasi berat, manajemen error yang terkadang tidak konsisten, dan sintaksisnya bisa menjadi sangat berantakan jika logika program terlalu besar.

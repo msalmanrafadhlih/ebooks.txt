@@ -1,0 +1,55 @@
+====================================== START
+
+PowerShell (2006) – oleh Jeffrey Snover (Microsoft)
+
+Contoh kode:
+# Mengambil proses yang memakan memori lebih dari 100MB
+Get-Process | Where-Object { $_.WorkingSet -gt 100MB } | Select-Object Name, CPU
+
+# Fungsi sederhana dengan pengetikan kuat
+function Greet-User ([string]$Name) {
+    Write-Host "Halo, $Name! PowerShell bukan sekadar teks, tapi objek." -ForegroundColor Cyan
+}
+
+Greet-User -Name "Admin"
+
+"Bukan sekadar shell biasa, melainkan kerangka kerja otomasi tugas dan manajemen konfigurasi yang dibangun di atas .NET. PowerShell mengubah paradigma shell dari sekadar manipulasi teks menjadi manipulasi objek yang sangat kuat."
+
+Motto:
+"Everything is an object."
+
+spesialisasi:
+Administrasi sistem Windows, Otomasi Cloud (Azure/AWS), DevOps, manajemen Active Directory, dan scripting lintas platform.
+
+Extension:
+.ps1, .psm1 (module), .psd1 (data)
+
+Sistem Tipe:
+Static & Strong (berbasis .NET)
+
+kepribadian:
+Sangat cerewet (verbose), sangat teratur, dan sangat membantu. Ia lebih suka menggunakan kata kerja-kata benda (Verb-Noun) yang jelas seperti 'Get-Help' daripada singkatan misterius, sehingga kodenya sangat mudah dipahami bahkan oleh orang awam.
+
+Keunggulan:
+Pipeline berbasis objek (kamu bisa memanipulasi data tanpa perlu 'parsing' teks manual), akses penuh ke seluruh library .NET, dan integrasi mendalam dengan infrastruktur Windows serta Cloud modern.
+
+tingkat kesulitan:
+Menengah. Mudah dipelajari karena sintaksisnya konsisten dan dokumentasinya luar biasa, namun menjadi kompleks saat kamu mulai masuk ke pemrograman tingkat lanjut menggunakan kelas .NET.
+
+Package Manager:
+PowerShell Gallery (Install-Module)
+
+Framework/Library:
+Pester (Testing), PSReadLine, VMware.VimAutomation.
+
+contoh Proyek terkenal:
+Skrip manajemen Azure, modul otomasi Windows Server, Microsoft 365 Management tools, dan Chocolatey (Package Manager Windows).
+
+Popularitas:
+Sangat Tinggi di lingkungan Enterprise dan Administrator Windows. Kini semakin populer di kalangan DevOps lintas platform semenjak kehadiran PowerShell Core (Open Source).
+
+platform:
+System, Scripting, Automation, Clouds (Azure/AWS), DevOps, Windows, Linux, macOS.
+
+Batasan:
+Waktu startup yang sedikit lebih lambat dibanding Bash/Zsh, sintaksis yang terasa terlalu panjang untuk perintah cepat di terminal, dan konsumsi memori yang lebih besar karena berjalan di atas runtime .NET.

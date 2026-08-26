@@ -1,0 +1,51 @@
+====================================== START
+
+Scratch (2003) – oleh Mitchel Resnick (MIT Media Lab)    
+
+Contoh kode:    
+[ketika bendera hijau diklik]
+[selamanya]
+    [gerak 10 langkah]
+    [jika di pinggir, pantulkan]
+    [katakan "Halo, dunia!" selama 2 detik]
+    
+"Bahasa pemrograman visual berbasis blok yang dirancang untuk memperkenalkan konsep logika pemrograman kepada pemula dan anak-anak. Scratch memungkinkan pengguna membuat cerita, game, dan animasi interaktif tanpa harus mengetik sintaksis."    
+    
+Motto:     
+"Imagine, Program, Share" (Imajinasikan, Program, Bagikan).        
+    
+spesialisasi:     
+Edukasi pemrograman, animasi kreatif, dan logika dasar untuk pemula.    
+    
+Extension:     
+.sb, .sb2, .sb3    
+    
+Sistem Tipe:     
+Dynamic & Weak (Tipe data dikelola secara otomatis di balik blok visual).    
+    
+kepribadian:     
+Sangat ceria, penuh warna, sabar, dan sangat pemaaf—tidak akan ada 'syntax error' di sini karena blok hanya akan menempel jika logikanya memungkinkan.    
+    
+Keunggulan:     
+Sangat mudah diakses oleh siapa saja tanpa latar belakang teknis, memiliki perpustakaan aset (gambar & suara) yang lengkap, dan komunitas berbagi proyek yang sangat besar di seluruh dunia.    
+    
+tingkat kesulitan:     
+Sangat Mudah. Kurva pembelajarannya hampir datar karena fokusnya adalah pada kreativitas dan logika visual daripada menghafal perintah teks.    
+    
+Package Manager:     
+Tidak ada (Menggunakan fitur 'Extensions' bawaan untuk menghubungkan perangkat keras atau layanan luar).    
+    
+Framework/Library:     
+Scratch Extensions (LEGO Mindstorms, Micro:bit, Google Translate).    
+    
+contoh Proyek terkenal:    
+Jutaan game komunitas (seperti tiruan Super Mario atau Geometry Dash), proyek edukasi sekolah, dan animasi musik interaktif.    
+    
+Popularitas:     
+Sangat Masif di dunia pendidikan. Digunakan oleh siswa, guru, anak-anak, dan orang dewasa yang baru pertama kali ingin mengenal logika koding.    
+    
+platform:     
+Web (Browser), DesktopApps, Education.    
+    
+Batasan:     
+Tidak efisien untuk komputasi berat, tidak bisa digunakan untuk membangun aplikasi profesional (seperti sistem operasi atau backend), dan sangat terbatas pada lingkungan ekosistem Scratch itu sendiri.

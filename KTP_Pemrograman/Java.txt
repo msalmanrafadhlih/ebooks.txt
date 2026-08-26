@@ -1,0 +1,55 @@
+====================================== START
+
+Java (1995) – oleh James Gosling (Sun Microsystems)    
+
+Contoh kode:    
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java World!");
+        
+        for (int i = 1; i <= 3; i++) {
+            System.out.println("Iterasi ke-" + i);
+        }
+    }
+}
+    
+"Bahasa legendaris yang mempopulerkan konsep 'Write Once, Run Anywhere'. Java adalah raksasa di dunia korporat dan merupakan fondasi dari jutaan aplikasi enterprise serta sistem Android."    
+    
+Motto:     
+"Write Once, Run Anywhere" (Tulis sekali, jalankan di mana saja).        
+    
+spesialisasi:     
+Aplikasi Enterprise, Pengembangan Android, Big Data, dan sistem perbankan.    
+    
+Extension:     
+.java (source), .class (bytecode), .jar (archive)    
+    
+Sistem Tipe:     
+Static & Strong    
+    
+kepribadian:     
+Sangat bertele-tele (verbose), disiplin tinggi, kaku terhadap struktur (semuanya harus dalam Class), dan sangat menekankan keamanan.    
+    
+Keunggulan:     
+Manajemen memori otomatis yang sangat matang (Garbage Collection), portabilitas luar biasa berkat JVM (Java Virtual Machine), dan ekosistem library yang sangat masif.    
+    
+tingkat kesulitan:     
+Menengah. Mudah dipahami logikanya, namun memerlukan banyak baris kode (boilerplate) bahkan untuk tugas yang sederhana.    
+    
+Package Manager:     
+Maven, Gradle.    
+    
+Framework/Library:     
+Spring Boot, Hibernate, JUnit.    
+    
+contoh Proyek terkenal:    
+Minecraft, Android OS (Application Framework), Apache Hadoop, LinkedIn (Backend), dan NASA WorldWind.    
+    
+Popularitas:     
+Sangat Tinggi. Digunakan oleh Software Engineers di perusahaan besar (Enterprise), Android Developers, dan Data Engineers.    
+    
+platform:     
+General Purpose, Webdev (Be), MobileDev (Android), DesktopApps, Data science, Big Data, Clouds, Infrastruktur, Embedded system.    
+    
+Batasan:     
+Penggunaan memori (RAM) yang cukup besar, waktu startup yang relatif lebih lambat dibanding bahasa native, dan sintaksis yang dianggap terlalu panjang oleh developer modern.

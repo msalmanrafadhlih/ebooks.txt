@@ -1,0 +1,68 @@
+====================================== START
+
+Vue.js (2014) – oleh Evan You (Mantan insinyur Google)
+
+Contoh kode:
+<script setup>
+import { ref, computed } from 'vue'
+
+const count = ref(0)
+const double = computed(() => count.value * 2)
+
+function increment() {
+  count.value++
+}
+</script>
+
+<template>
+  <div class="card">
+    <button @click="increment">Hitung: {{ count }}</button>
+    <p>Dua kali lipat: {{ double }}</p>
+  </div>
+</template>
+
+<style scoped>
+.card { border: 1px solid #42b883; padding: 20px; }
+button { background: #35495e; color: white; }
+</style>
+
+"Framework JavaScript progresif yang dirancang agar mudah diadopsi. Vue mengambil bagian terbaik dari Angular (template) dan React (komponen & virtual DOM), lalu mengemasnya dalam bentuk yang jauh lebih ringan dan ramah bagi pengembang."
+
+Motto:
+"The Progressive Framework."
+
+spesialisasi:
+User Interface (UI) yang reaktif, Single Page Applications (SPA), Dashboard, dan integrasi frontend pada proyek legacy.
+
+Extension:
+.vue
+
+Sistem Tipe:
+Dynamic (JavaScript) & Static (TypeScript support sangat matang di v3).
+
+kepribadian:
+Sangat ramah, fleksibel, dan seimbang. Vue tidak memaksa kamu mengikuti satu cara tertentu; ia tumbuh bersamamu, mulai dari sekadar library script sederhana hingga menjadi framework full-stack yang sangat kuat.
+
+Keunggulan:
+Dokumentasi terbaik di dunia framework JS, kurva pembelajaran yang sangat landai, performa tinggi dengan Virtual DOM yang efisien, dan ekosistem resmi (Router, Store) yang selalu sinkron.
+
+tingkat kesulitan:
+Mudah ke Menengah. Sangat cocok bagi pemula untuk langsung produktif, namun memiliki kedalaman teknis yang kuat untuk aplikasi skala enterprise.
+
+Package Manager:
+npm, pnpm, yarn, bun.
+
+Framework/Library:
+Nuxt.js (Full-stack SSR), Pinia (State Management), Vite (Build tool), Vuetify/PrimeVue (UI Components).
+
+contoh Proyek terkenal:
+GitLab, Nintendo (beberapa bagian), Adobe (Portfolio), Xiaomi, dan platform besar di Tiongkok seperti Alibaba dan Baidu.
+
+Popularitas:
+Sangat Tinggi. Menjadi favorit komunitas karena keseimbangannya antara kemudahan penggunaan dan fitur yang lengkap.
+
+platform:
+Web (Fe/Be via Nuxt), Desktop (via Electron/Tauri), Mobile (via Capacitor/NativeScript).
+
+Batasan:
+Meskipun sangat populer, ekosistem library pihak ketiga terkadang masih kalah jumlah dibandingkan React, dan fragmentasi antara Vue 2 dan Vue 3 sempat menjadi tantangan migrasi bagi banyak perusahaan.

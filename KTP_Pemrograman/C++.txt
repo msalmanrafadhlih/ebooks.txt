@@ -1,0 +1,54 @@
+====================================== START
+
+C++ (1985) – oleh Bjarne Stroustrup
+
+Contoh kode:
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<std::string> features = {"Performance", "OOP", "Templates"};
+    std::cout << "C++ Power: " << features[0] << std::endl;
+    return 0;
+}
+
+"Bahasa tingkat tinggi yang memberikan kontrol tingkat rendah. Dirancang sebagai 'C with Classes', ia berevolusi menjadi raksasa multi-paradigma yang menggerakkan sistem-sistem paling kritis di dunia."
+
+Motto:
+"Zero-overhead principle" (Apa yang tidak kamu gunakan, tidak perlu kamu bayar).
+
+spesialisasi:
+Aplikasi performa tinggi, AAA Games, sistem terdistribusi, dan perangkat lunak sistem yang kompleks.
+
+Extension:
+.cpp, .hpp, .cc, .hh, .cxx
+
+Sistem Tipe:
+Static & Strong (namun memungkinkan manipulasi memori tingkat rendah).
+
+kepribadian:
+Sangat luas, kompleks, kuat, dan tidak berkompromi terhadap efisiensi. Ia memberikan semua alat yang mungkin dibutuhkan, meski itu berbahaya.
+
+Keunggulan:
+Kecepatan eksekusi mendekati bahasa mesin, mendukung berbagai paradigma (Prosedural, OOP, Generik), dan memiliki ekosistem library standar (STL) yang sangat matang.
+
+tingkat kesulitan:
+Sangat Sulit. Kurva pembelajarannya tajam karena banyaknya fitur (seperti template, pointers, dan memory management) serta evolusi standar (C++11, 14, 17, 20, 23) yang menambah kompleksitas.
+
+Package Manager:
+Vcpkg, Conan.
+
+Framework/Library:
+STL (Standard Template Library), Boost, Qt (untuk Desktop GUI).
+
+contoh Proyek terkenal:
+Adobe Photoshop, Unreal Engine, Browser Google Chrome, Sistem navigasi Mars Rovers (NASA), dan Spotify.
+
+Popularitas:
+Sangat Tinggi. Menjadi standar industri untuk Game Developers, Financial/Quant Developers, dan Systems Engineers.
+
+platform:
+General Purpose, DesktopApps, Gamedev, System, Embedded system, IoT, AI, Machine Learning, Database, Infrastruktur.
+
+Batasan:
+Waktu kompilasi yang lama (terutama dengan template yang berat), sintaksis yang bisa menjadi sangat rumit (verbose), dan pengelolaan memori manual yang masih rentan kebocoran (memory leaks) jika tidak menggunakan modern smart pointers.

@@ -1,0 +1,56 @@
+====================================== START
+
+MATLAB (1984) – oleh Cleve Moler (MathWorks)    
+
+Contoh kode:    
+% Membuat matriks dan menghitung inversnya
+A = [1, 2, 3; 4, 5, 6; 7, 8, 10];
+B = inv(A);
+
+% Plotting sederhana
+x = 0:0.01:2*pi;
+y = sin(x);
+plot(x, y);
+title('Gelombang Sinus di MATLAB');
+grid on;
+    
+"Bahasa tingkat tinggi dan lingkungan interaktif yang menjadi standar global untuk komputasi teknis. MATLAB dirancang khusus untuk memecahkan masalah teknik dan ilmiah yang melibatkan matriks dan matematika tingkat lanjut."    
+    
+Motto:     
+"The Language of Technical Computing."        
+    
+spesialisasi:     
+Komputasi numerik, pemrosesan sinyal, sistem kontrol, dan simulasi teknik.    
+    
+Extension:     
+.m, .mat (data), .mlx (live script)    
+    
+Sistem Tipe:     
+Dynamic & Strong    
+    
+kepribadian:     
+Sangat matematis, kaku dalam struktur data (semuanya dianggap sebagai matriks), dan sangat eksklusif (proprietary).    
+    
+Keunggulan:     
+Memiliki ratusan 'Toolbox' resmi yang sangat lengkap dan teruji untuk berbagai bidang teknik, visualisasi data yang sangat superior, dan dukungan teknis profesional.    
+    
+tingkat kesulitan:     
+Mudah. Bagi mereka yang memiliki latar belakang teknik atau matematika, sintaksis MATLAB sangat intuitif karena hampir sama dengan cara menulis rumus di atas kertas.    
+    
+Package Manager:     
+Add-On Explorer (Internal MathWorks)    
+    
+Framework/Library:     
+Simulink (Simulasi sistem), Deep Learning Toolbox, Control System Toolbox.    
+    
+contoh Proyek terkenal:    
+Sistem navigasi wahana antariksa NASA, algoritma pengenalan wajah awal, kontrol sistem pengereman otomotif, dan analisis data riset medis global.    
+    
+Popularitas:     
+Sangat Tinggi di dunia akademik dan industri teknik (Aerospace, Automotive, BioTech). Digunakan oleh Insinyur, Peneliti, dan Ilmuwan.    
+    
+platform:     
+General Purpose, Data science, Ai, Machine Learning, Embedded system, Control System, Automation, Signal Processing.    
+    
+Batasan:     
+Biaya lisensi yang sangat mahal (berbayar), kode bersifat tertutup (bukan open source), dan kurang efisien untuk pengembangan aplikasi web atau mobile modern.

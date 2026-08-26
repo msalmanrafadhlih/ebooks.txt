@@ -1,0 +1,57 @@
+====================================== START
+
+VHDL (1981) – oleh Departemen Pertahanan AS (DoD)
+
+Contoh kode:
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity and_gate is
+    Port ( a : in  STD_LOGIC;
+           b : in  STD_LOGIC;
+           out_res : out STD_LOGIC);
+end and_gate;
+
+architecture behavioral of and_gate is
+begin
+    out_res <= a and b;
+end behavioral;
+
+
+"Bukan sekadar bahasa pemrograman, melainkan Hardware Description Language (HDL) yang sangat formal dan terstruktur. VHDL digunakan untuk memodelkan sistem digital pada berbagai tingkat abstraksi, mulai dari gerbang logika hingga sistem komputer yang kompleks."
+
+Motto:
+"The architect's blueprint for silicon." (Cetak biru sang arsitek untuk silikon).
+
+spesialisasi:
+Desain FPGA, pengembangan ASIC, Verifikasi Perangkat Keras, dan Sistem Aerospace/Militer.
+
+Extension:
+.vhd, .vhdl
+
+Sistem Tipe:
+Static, Strong, & Strongly Typed (Sangat kaku dalam tipe data).
+
+kepribadian:
+Seorang birokrat militer yang sangat teliti, formal, dan tidak suka basa-basi. VHDL menuntut kamu menulis banyak kode (verbose) untuk hal sederhana, tapi tujuannya adalah memastikan tidak ada ruang untuk kesalahan dalam desain chip fisik.
+
+Keunggulan:
+Sangat disiplin (error terdeteksi saat kompilasi, bukan saat chip sudah dicetak), kemampuan pemodelan sistem yang sangat detail, dan merupakan standar industri global bersama saingannya, Verilog.
+
+tingkat kesulitan:
+Sangat Sulit. Selain sintaksisnya yang cerewet dan penuh kata kunci, kamu harus memahami konsep konkurensi perangkat keras yang bekerja secara simultan, bukan berurutan seperti kode JavaScript.
+
+Alat Bantu/Simulator:
+ModelSim, GHDL (Open Source), Vivado, Quartus.
+
+contoh Proyek terkenal:
+Sistem kontrol pesawat tempur, satelit, infrastruktur telekomunikasi (5G), dan berbagai kontroler industri tingkat tinggi.
+
+Popularitas:
+Sangat Tinggi di industri pertahanan, kedirgantaraan, dan manufaktur chip besar. Wajib dikuasai oleh Insinyur Teknik Elektro dan Computer Engineering.
+
+platform:
+Hardware, FPGA, ASIC, Embedded systems, Militer & Aerospace.
+
+Batasan:
+Sangat bertele-tele (verbose), membutuhkan waktu belajar yang lebih lama dibanding Verilog, dan ekosistem open-source-nya tidak se-dinamis dunia web.

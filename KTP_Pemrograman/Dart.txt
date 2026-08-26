@@ -1,0 +1,54 @@
+====================================== START
+
+Dart (2011) – oleh Lars Bak & Kasper Lund (Google)    
+
+Contoh kode:    
+void main() {
+  var name = 'Dart';
+  print('Hello, $name!');
+  
+  for (int i = 0; i < 3; i++) {
+    print('Belajar Dart itu menyenangkan: $i');
+  }
+}
+    
+"Bahasa yang dirancang untuk produktivitas tinggi dalam membangun aplikasi klien yang cepat. Dart adalah jantung di balik framework Flutter, memungkinkan pembuatan antarmuka pengguna yang indah dengan performa native."    
+    
+Motto:     
+"Optimized for UI" (Dioptimalkan untuk antarmuka pengguna).        
+    
+spesialisasi:     
+Pengembangan aplikasi Mobile, Web, dan Desktop dengan performa tinggi.    
+    
+Extension:     
+.dart    
+    
+Sistem Tipe:     
+Static & Strong (dengan fitur Type Inference).    
+    
+kepribadian:     
+Modern, sangat bersih, konsisten, dan sangat berfokus pada pengalaman pengembang (Developer Experience).    
+    
+Keunggulan:     
+Kompilasi JIT (Just-In-Time) untuk fitur Hot Reload yang super cepat saat pengembangan, dan AOT (Ahead-of-Time) untuk performa aplikasi produksi yang efisien.    
+    
+tingkat kesulitan:     
+Mudah. Bagi yang sudah familiar dengan Java, C#, atau JavaScript, sintaksis Dart akan terasa sangat akrab dan intuitif.    
+    
+Package Manager:     
+Pub (pub.dev)    
+    
+Framework/Library:     
+Flutter (UI Toolkit), AngularDart, Shelf (Backend).    
+    
+contoh Proyek terkenal:    
+Google Ads, eBay Motors, Alibaba, Hamilton Music, dan Google Pay.    
+    
+Popularitas:     
+Tinggi (Sangat Populer di kalangan Mobile Developer). Digunakan oleh Mobile Developers, UI/UX Engineers, dan Front-end Developers.    
+    
+platform:     
+General Purpose, Webdev (Fe/Be), MobileDev (iOS, Android, Cross), DesktopApps.    
+    
+Batasan:     
+Ekosistem di luar framework Flutter masih belum sebesar bahasa lain (seperti Node.js atau Python) dan relatif jarang digunakan untuk aplikasi berbasis sistem atau kernel.

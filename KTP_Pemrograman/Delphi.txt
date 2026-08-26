@@ -1,0 +1,61 @@
+====================================== START
+
+Delphi (1995) – oleh Borland (Anders Hejlsberg)    
+
+Contoh kode:    
+program HelloDelphi;
+
+{$APPTYPE CONSOLE}
+
+uses
+  System.SysUtils;
+
+var
+  Pesan: string;
+begin
+  Pesan := 'Halo dari Delphi!';
+  Writeln(Pesan);
+  Writeln('RAD (Rapid Application Development) dimulai di sini.');
+  Readln;
+end.
+    
+"Evolusi modern dari Object Pascal yang merevolusi cara pembuatan aplikasi Windows. Delphi dikenal karena kemampuannya membangun aplikasi desktop yang kompleks dengan sangat cepat melalui pendekatan visual dan kompilasi yang secepat kilat."    
+    
+Motto:     
+"Build once, deploy everywhere." (Terutama dengan framework FireMonkey modern).        
+    
+spesialisasi:     
+Aplikasi Desktop Windows (VCL), Aplikasi lintas platform (Android/iOS via FMX), Sistem Database Enterprise, dan perangkat lunak kasir/POS.    
+    
+Extension:     
+.pas, .dfm, .dpr    
+    
+Sistem Tipe:     
+Static & Strong    
+    
+kepribadian:     
+Sangat efisien, terstruktur, dan visual. Delphi adalah 'arsitek' yang membangun rumah dengan komponen yang sudah jadi, namun tetap memberikan akses penuh ke fondasi paling dasar.    
+    
+Keunggulan:     
+Kecepatan kompilasi yang hampir tidak tertandingi, menghasilkan satu file executable (.exe) tunggal tanpa perlu runtime tambahan (seperti .NET atau Java), dan dukungan database yang sangat matang.    
+    
+tingkat kesulitan:     
+Mudah ke Menengah. Sangat ramah bagi pemula karena sintaksis Pascal yang bersih, namun sangat kuat untuk menangani pemrograman tingkat rendah jika diperlukan.    
+    
+Package Manager:     
+GetIt Package Manager, Boss.    
+    
+Framework/Library:     
+VCL (Visual Component Library), FireMonkey (FMX), Indy (Networking).    
+    
+contoh Proyek terkenal:    
+Skype (versi awal), FL Studio (Digital Audio Workstation), Total Commander, Dev-C++, dan berbagai sistem perbankan internal.    
+    
+Popularitas:     
+Menengah (Legacy/Enterprise). Meskipun tidak sepopuler dulu di kalangan startup web, Delphi tetap menjadi tulang punggung di banyak sistem industri, medis, dan keuangan yang membutuhkan stabilitas tinggi.    
+    
+platform:     
+DesktopApps (Windows/macOS), MobileDev (iOS/Android), Database, System, Infrastruktur.    
+    
+Batasan:     
+Ekosistem yang bersifat komersial (berbayar dan cukup mahal), komunitas yang lebih kecil dibandingkan bahasa open-source modern, dan persepsi sebagai bahasa 'tua' meskipun fiturnya terus diperbarui.

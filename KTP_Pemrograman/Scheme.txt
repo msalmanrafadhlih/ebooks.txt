@@ -1,0 +1,55 @@
+====================================== START
+
+Scheme (1975) – oleh Guy L. Steele dan Gerald Jay Sussman (MIT)
+
+Contoh kode:
+;; Mendefinisikan fungsi faktorial secara rekursif
+(define (factorial n)
+  (if (= n 0)
+      1
+      (* n (factorial (- n 1)))))
+
+(display "Hello, Scheme!")
+(newline)
+(display (factorial 5))
+
+"Dialek Lisp yang paling elegan dan minimalis. Scheme dirancang dengan filosofi bahwa bahasa pemrograman seharusnya tidak tumpuk-menumpuk fitur, melainkan menyediakan beberapa mekanisme dasar yang sangat kuat dan fleksibel untuk membangun segalanya."
+
+Motto:
+"Minimalism is power."
+
+spesialisasi:
+Edukasi ilmu komputer, riset bahasa pemrograman, scripting aplikasi, dan kecerdasan buatan.
+
+Extension:
+.scm, .ss
+
+Sistem Tipe:
+Dynamic & Strong
+
+kepribadian:
+Seorang akademisi yang sangat murni dan puitis. Ia tidak peduli dengan kerumitan dunia industri; ia hanya peduli pada keindahan logika dan struktur kode yang bersih.
+
+Keunggulan:
+Dukungan 'Proper Tail Recursion' yang menjamin efisiensi memori, 'Hygienic Macros' yang sangat aman, dan 'First-class Continuations' yang memungkinkan kontrol alur program yang luar biasa fleksibel.
+
+tingkat kesulitan:
+Menengah. Sintaksisnya sangat sedikit dan mudah dipelajari, namun memahami konsep-konsep abstraknya (seperti penutupan/closures dan kontinuasi) memerlukan pemikiran yang mendalam.
+
+Package Manager:
+Akku (untuk standar R6RS dan R7RS).
+
+Implementasi Terkenal:
+Guile (GNU Scheme), Racket (turunan Scheme), Chicken Scheme, Chez Scheme.
+
+contoh Proyek terkenal:
+Script-Fu pada GIMP (untuk otomasi editing gambar), LilyPond (penulisan notasi musik), dan buku legendaris "Structure and Interpretation of Computer Programs" (SICP).
+
+Popularitas:
+Sangat Tinggi di dunia akademik dan riset. Digunakan sebagai bahasa pengantar di banyak universitas top dunia dan sebagai bahasa skrip untuk proyek-proyek GNU.
+
+platform:
+General Purpose, Education, Research, Scripting, Automation, Functional programming.
+
+Batasan:
+Library standar yang sangat minimalis (kamu harus membangun banyak hal sendiri), serta fragmentasi antara berbagai standar (seperti R5RS, R6RS, dan R7RS) yang terkadang membingungkan.

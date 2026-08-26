@@ -1,0 +1,54 @@
+====================================== START
+
+Pascal (1970) – oleh Niklaus Wirth
+
+Contoh kode:
+program HaloDunia;
+var
+  nama: string;
+begin
+  write('Masukkan namamu: ');
+  readln(nama);
+  writeln('Halo, ', nama, '! Selamat datang di dunia Pascal.');
+end.
+
+"Bahasa pemrograman yang dirancang khusus untuk mengajarkan pemrograman terstruktur dan pengorganisasian data yang baik. Pascal adalah pelopor dalam memperkenalkan penulisan kode yang disiplin, bersih, dan sangat mudah dibaca oleh manusia."
+
+Motto:
+"Programming as a disciplined science." (Pemrograman sebagai ilmu yang disiplin).
+
+spesialisasi:
+Edukasi pemrograman, pengembangan perangkat lunak sistem, aplikasi desktop (via Delphi/Free Pascal), dan sistem tertanam (embedded systems).
+
+Extension:
+.pas, .p, .pp
+
+Sistem Tipe:
+Static & Strong
+
+kepribadian:
+Sangat kaku, disiplin, dan mendidik. Pascal tidak suka jika kamu menulis kode secara asal-asalan; ia akan memaksamu untuk mendeklarasikan setiap variabel dan tipe data dengan jelas sebelum digunakan.
+
+Keunggulan:
+Sintaksis yang sangat mirip bahasa Inggris (sangat terbaca), pengecekan tipe data yang sangat ketat untuk mencegah bug, dan performa kompilasi yang sangat cepat.
+
+tingkat kesulitan:
+Mudah. Sangat ramah bagi pemula karena tujuannya memang sebagai bahasa pengantar untuk memahami logika pemrograman yang benar dan terstruktur.
+
+Package Manager:
+Tidak ada pengelola paket standar (biasanya menggunakan bawaan dari compiler seperti Free Pascal atau Delphi).
+
+Framework/Library:
+Lazarus (IDE/Framework visual), Free Pascal Compiler (FPC), Delphi (VCL/FMX).
+
+contoh Proyek terkenal:
+Versi awal Adobe Photoshop, sistem operasi Apple Lisa, Macintosh asli, Skype (versi awal), dan sistem typesetting TeX oleh Donald Knuth.
+
+Popularitas:
+Menengah (Dominan di dunia pendidikan dan sistem legacy enterprise). Meskipun sudah jarang digunakan untuk proyek startup baru, ia tetap memiliki basis pengguna setia di komunitas Free Pascal.
+
+platform:
+General Purpose, DesktopApps, System, Embedded system, Education.
+
+Batasan:
+Dianggap terlalu bertele-tele bagi beberapa programmer modern, dan ekosistem library pihak ketiganya tidak sekomprehensif bahasa modern seperti Python atau JavaScript.

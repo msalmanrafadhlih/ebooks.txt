@@ -1,0 +1,58 @@
+====================================== START
+
+Perl (1987) – oleh Larry Wall
+
+Contoh kode:
+# Menghitung jumlah kata unik dalam list
+my @kata = ("nix", "neovim", "lua", "nix", "rust");
+my %hitung;
+
+foreach my $item (@kata) {
+    $hitung{$item}++;
+}
+
+print "Statistik kata:\n";
+while (my ($k, $v) = each %hitung) {
+    print "$k: muncul $v kali\n";
+}
+
+"Sering dijuluki sebagai 'Swiss Army Chainsaw' atau 'Lem yang merekatkan internet'. Perl adalah bahasa yang sangat kuat untuk pemrosesan teks dan administrasi sistem, dikenal karena kemampuannya menyelesaikan masalah rumit dengan baris kode yang sangat sedikit."
+
+Motto:
+"There's more than one way to do it" (TIMTOWTDI).
+
+spesialisasi:
+Pemrosesan teks (Regex), Administrasi Sistem (Sysadmin), Bioinformatika, Network Programming, dan CGI Web (Legacy).
+
+Extension:
+.pl, .pm (module), .t (test)
+
+Sistem Tipe:
+Dynamic & Weak
+
+kepribadian:
+Eksentrik, sangat cerdas, dan agak berantakan. Perl tidak suka membatasi kreativitasmu; ia mengizinkanmu menulis kode dengan gaya apa pun, bahkan jika kode itu hanya kamu yang bisa membacanya (Write-only language).
+
+Keunggulan:
+Dukungan Regular Expression (Regex) yang merupakan standar emas di dunia pemrograman, memiliki CPAN (perpustakaan modul yang sangat masif), dan sangat efisien untuk tugas-tugas otomasi cepat di terminal.
+
+tingkat kesulitan:
+Menengah ke Sulit. Sangat mudah untuk membuat skrip satu baris (one-liners), namun sangat menantang untuk membaca atau memelihara proyek besar karena sintaksisnya yang penuh dengan simbol (sigils) seperti $, @, dan %.
+
+Package Manager:
+CPAN (Comprehensive Perl Archive Network)
+
+Framework/Library:
+Mojolicious, Dancer, Catalyst (Web), DBI (Database).
+
+contoh Proyek terkenal:
+IMDb (versi awal), Amazon (infrastruktur awal), DuckDuckGo (beberapa komponen backend), cPanel, dan Bugzilla.
+
+Popularitas:
+Menurun (untuk proyek baru), namun Tetap Vital di sistem operasi berbasis Unix/Linux. Digunakan oleh Sysadmins, DevOps 'Old School', dan ilmuwan data di bidang biologi.
+
+platform:
+System, Scripting, Automation, Webdev (Be), Infrastructure, Unix/Linux.
+
+Batasan:
+Reputasi sebagai kode yang sulit dibaca (obfuscated code), performa yang mulai tertinggal oleh bahasa modern untuk tugas tertentu, dan komunitas yang mulai mengecil dibandingkan Python atau Go.

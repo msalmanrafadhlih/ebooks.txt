@@ -1,0 +1,53 @@
+====================================== START
+
+Lisp (1958) – oleh John McCarthy
+
+Contoh kode:    
+(defun sapa-dunia (nama)
+  (format t "Halo, ~a! Selamat datang di dunia S-expression." nama))
+
+;; Menghitung kuadrat dalam list
+(mapcar (lambda (x) (* x x)) '(1 2 3 4 5))
+
+(sapa-dunia "Programmer")
+    
+"Bahasa pemrograman tingkat tinggi tertua kedua setelah Fortran yang masih digunakan hingga sekarang. Lisp memperkenalkan banyak konsep revolusioner seperti rekursi, fungsi sebagai objek tingkat pertama (first-class citizens), dan struktur data pohon."    
+    
+Motto:     
+"Code is data, data is code." (Homoiconicity)        
+    
+spesialisasi:     
+Kecerdasan Buatan (AI) klasik, pemrosesan simbolik, pembuatan bahasa (DSL), dan konfigurasi editor tingkat lanjut (Emacs).    
+    
+Extension:     
+.lisp, .lsp, .cl (Common Lisp), .scm (Scheme), .el (Emacs Lisp)    
+    
+Sistem Tipe:     
+Dynamic & Strong    
+    
+kepribadian:     
+Filosofis, sangat fleksibel, dan 'abadi'. Lisp tidak memiliki sintaksis yang rumit karena ia menganggap segala sesuatunya adalah daftar (List) di dalam tanda kurung.    
+    
+Keunggulan:     
+Sistem Macro yang paling kuat di dunia (bisa mengubah bahasa sesuai keinginan), pengembangan interaktif yang sangat cepat melalui REPL, dan kemampuannya untuk beradaptasi dengan paradigma apa pun.    
+    
+tingkat kesulitan:     
+Sulit bagi yang terbiasa dengan bahasa C-style. Tantangan utamanya bukan pada perintahnya, melainkan pada banyaknya tanda kurung dan cara berpikir fungsional/rekursif yang sangat murni.    
+    
+Package Manager:     
+Quicklisp (untuk Common Lisp).    
+    
+Dialek Terkenal:     
+Common Lisp, Scheme, Clojure, Emacs Lisp (Elisp).    
+    
+contoh Proyek terkenal:    
+Sistem navigasi Mars Pathfinder (bagian dari autolisp), sistem reservasi tiket pesawat Orbitz, dan tentu saja teks editor legendaris GNU Emacs.    
+    
+Popularitas:     
+Niche namun sangat dihormati. Digunakan oleh peneliti AI, hacker tingkat lanjut, dan pengembang yang mencari kebebasan mutlak dalam memodifikasi bahasa mereka.    
+    
+platform:     
+General Purpose, AI, Scripting, Automation, Functional programming.    
+    
+Batasan:     
+Sintaksis 'prefix notation' dan tumpukan tanda kurung sering kali dianggap mengintimidasi (LISP sering dipelesetkan menjadi 'Lots of Irritating Superfluous Parentheses'), serta ekosistem library modern yang tidak seluas Python.

@@ -1,0 +1,54 @@
+====================================== START
+
+Rust (2010) – oleh Graydon Hoare (Mozilla Research)    
+
+Contoh kode:    
+fn main() {
+    let mut vec = vec!["Memory", "Safety", "Performance"];
+    vec.push("Concurrency");
+
+    for feature in &vec {
+        println!("Rust provides: {}", feature);
+    }
+}
+    
+"Bahasa pemrograman sistem yang berfokus pada tiga hal utama: keamanan (safety), kecepatan (speed), dan konkurensi. Rust dirancang untuk memberikan performa setara C++ namun tanpa risiko kebocoran memori atau data races yang umum terjadi."    
+    
+Motto:     
+"Empowering everyone to build reliable and efficient software."        
+    
+spesialisasi:     
+Systems programming, WebAssembly (Wasm), High-performance backend, dan tools infrastruktur.    
+    
+Extension:     
+.rs    
+    
+Sistem Tipe:     
+Static & Strong (dengan sistem Ownership dan Borrowing yang unik)    
+    
+kepribadian:     
+Sangat disiplin dan perfeksionis. Rust adalah 'pelatih' yang tegas; ia tidak akan membiarkan kodenya berjalan jika ada potensi bahaya memori, namun memberikan pesan error yang sangat membantu.    
+    
+Keunggulan:     
+Keamanan memori tanpa Garbage Collector, performa yang luar biasa cepat, manajemen paket yang modern dan efisien, serta komunitas yang sangat inklusif (Rustaceans).    
+    
+tingkat kesulitan:     
+Sulit. Memiliki kurva pembelajaran yang tajam karena konsep Ownership, Borrowing, dan Lifetimes yang sering kali membuat pemula 'berkelahi' dengan Borrow Checker.    
+    
+Package Manager:     
+Cargo    
+    
+Framework/Library:     
+Actix-web / Axum (Web Backend), Bevy (Game Engine), Tokio (Asynchronous Runtime).    
+    
+contoh Proyek terkenal:    
+Firefox (Quantum Engine), Discord (Backend), AWS Firecracker, Polkadot, dan sebagian kernel Linux (saat ini sudah mulai diadopsi).    
+    
+Popularitas:     
+Sangat Tinggi (Bahasa yang paling dicintai di Stack Overflow Survey selama bertahun-tahun). Favorit bagi Systems Engineers, Backend Developers, dan WebAssembly Enthusiasts.    
+    
+platform:     
+General Purpose, Webdev (Be/Wasm), DesktopApps, Gamedev, System, Embedded system, IoT, Clouds, DevOps, Infrastruktur.    
+    
+Batasan:     
+Waktu kompilasi yang relatif lama dibanding bahasa lain, serta sintaksis dan aturan ketat yang bisa menghambat kecepatan prototyping bagi pengembang yang belum terbiasa.

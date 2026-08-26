@@ -1,0 +1,55 @@
+====================================== START
+Swift (2014) – oleh Chris Lattner & Apple    
+
+Contoh kode:    
+import Foundation
+
+let greeting = "Hello, Swift!"
+var numbers = [1, 2, 3, 4, 5]
+
+let doubled = numbers.map { $0 * 2 }
+
+print("\(greeting)")
+print("Angka yang dikali dua: \(doubled)")
+    
+"Bahasa pemrograman modern yang dirancang untuk menggantikan Objective-C. Swift menggabungkan performa tinggi dari bahasa kompilasi dengan kesederhanaan dan kenyamanan bahasa skrip, menjadikannya standar utama untuk seluruh ekosistem Apple."    
+    
+Motto:     
+"Fast, safe, and expressive." (Cepat, aman, dan ekspresif).        
+    
+spesialisasi:     
+Pengembangan aplikasi iOS, macOS, watchOS, tvOS, dan Server-side Swift.    
+    
+Extension:     
+.swift    
+    
+Sistem Tipe:     
+Static & Strong (dengan fitur Type Inference yang sangat cerdas)    
+    
+kepribadian:     
+Sangat rapi, modern, dan protektif—ia sangat benci dengan error "null" (nil) dan memaksa pengembang untuk menanganinya secara aman menggunakan Optionals.    
+    
+Keunggulan:     
+Performa yang mendekati C++ berkat optimasi LLVM, sintaksis yang bersih dan sangat mudah dibaca, serta sistem keamanan memori yang mencegah banyak bug umum secara otomatis.    
+    
+tingkat kesulitan:     
+Menengah. Mudah dipelajari untuk dasar-dasarnya, namun memiliki konsep tingkat lanjut yang cukup dalam seperti Protocols, Generics, dan sistem Konkurensi modern (Async/Await).    
+    
+Package Manager:     
+Swift Package Manager (SPM)    
+    
+Framework/Library:     
+SwiftUI (Modern UI), UIKit (Legacy UI), Vapor (Server-side).    
+    
+contoh Proyek terkenal:    
+Aplikasi iOS populer (seperti Airbnb, Uber, LinkedIn), Swift Playgrounds, dan infrastruktur internal Apple.    
+    
+Popularitas:     
+Sangat Tinggi. Menjadi bahasa wajib bagi iOS/macOS Developers dan semakin populer di kalangan pengembang sistem yang mencari alternatif aman untuk C.    
+    
+platform:     
+General Purpose, MobileDev (iOS), DesktopApps (macOS), Webdev (Be), System, Embedded system.    
+    
+Batasan:     
+Meskipun bersifat open-source, dukungan dan fitur terbaiknya masih sangat terikat erat dengan ekosistem Apple (Xcode, SDK Apple), sehingga adopsi di Linux atau Windows masih terbatas dibandingkan bahasa lain.
+

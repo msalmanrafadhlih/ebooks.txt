@@ -1,0 +1,55 @@
+====================================== START
+
+R (1993) – oleh Ross Ihaka & Robert Gentleman    
+
+Contoh kode:    
+# Membuat data sederhana
+data <- c(10, 20, 30, 40, 50)
+
+# Menghitung rata-rata
+mean_val <- mean(data)
+
+# Visualisasi dasar
+plot(data, type="b", main="Tren Data", col="blue")
+print(paste("Rata-rata data adalah:", mean_val))
+    
+"Bahasa dan lingkungan komputasi statistik yang menjadi standar emas bagi para statistikawan dan ilmuwan data untuk memproses, menganalisis, serta memvisualisasikan data secara mendalam dan akurat."    
+    
+Motto:     
+"Turn data into insight" (Ubah data menjadi wawasan).        
+    
+spesialisasi:     
+Statistik, Analisis Data, Komputasi Ilmiah, dan Visualisasi Data tingkat lanjut.    
+    
+Extension:     
+.r, .R, .Rmd (R Markdown)    
+    
+Sistem Tipe:     
+Dynamic & Strong    
+    
+kepribadian:     
+Akademis, sangat teliti dalam urusan angka, dan sangat artistik dalam mempresentasikan informasi melalui grafik.    
+    
+Keunggulan:     
+Memiliki ribuan paket khusus statistik (CRAN) yang tidak tertandingi, kemampuan membuat grafik kualitas publikasi (ggplot2), dan dukungan kuat untuk riset ilmiah.    
+    
+tingkat kesulitan:     
+Menengah. Mudah bagi orang yang memiliki latar belakang statistik, namun memiliki paradigma pemrograman yang unik dan berbeda dari bahasa umum seperti C atau Java.    
+    
+Package Manager:     
+CRAN (install.packages)    
+    
+Framework/Library:     
+ggplot2 (Visualisasi), Shiny (Aplikasi Web Interaktif), tidyverse (Manipulasi Data).    
+    
+contoh Proyek terkenal:    
+Sistem analisis data di Facebook, Google, New York Times (untuk infografis data), dan berbagai riset penemuan obat-obatan (Bioinformatics).    
+    
+Popularitas:     
+Tinggi (Khusus di bidang Data). Digunakan oleh Data Scientists, Statisticians, Akademisi, dan Quantitative Analysts di industri keuangan.    
+    
+platform:     
+Data science, Ai, Machine Learning, Scripting, Functional programming.    
+    
+Batasan:     
+Manajemen memori yang boros karena cenderung memuat semua data ke dalam RAM, kecepatan eksekusi yang relatif lambat untuk tugas pemrograman umum, dan sintaksis yang terkadang dianggap membingungkan bagi pengembang perangkat lunak murni.

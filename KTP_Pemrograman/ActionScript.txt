@@ -1,0 +1,59 @@
+====================================== START
+
+ActionScript (1998) – oleh Gary Grossman (Macromedia/Adobe)    
+
+Contoh kode:    
+package {
+    import flash.display.Sprite;
+    import flash.text.TextField;
+
+    public class HelloWorld extends Sprite {
+        public function HelloWorld() {
+            var label:TextField = new TextField();
+            label.text = "Hello, Flash World!";
+            addChild(label);
+            trace("Aplikasi berjalan!");
+        }
+    }
+}
+    
+"Bahasa yang menghidupkan era emas web interaktif. Berbasis ECMAScript, ia adalah mesin utama di balik animasi, game browser, dan konten multimedia yang mendominasi internet selama lebih dari satu dekade."    
+    
+Motto:     
+"Bringing the web to life" (Menghidupkan web).        
+    
+spesialisasi:     
+Animasi interaktif, Game berbasis browser (Flash), dan Rich Internet Applications (RIA).    
+    
+Extension:     
+.as (source code), .swf (compiled), .fla (project file).    
+    
+Sistem Tipe:     
+Dynamic (AS1/2) & Static/Strong (AS3).    
+    
+kepribadian:     
+Ekspresif, sangat visual, dan sangat bergantung pada event-driven programming.    
+    
+Keunggulan:     
+Kemudahan luar biasa dalam menangani grafik vektor dan audio secara real-time, serta runtime Flash Player yang dulu ada di hampir setiap komputer.    
+    
+tingkat kesulitan:     
+Mudah untuk pemula (AS1/2), namun menjadi cukup kompleks saat memasuki AS3 karena penerapan Object-Oriented Programming (OOP) yang sangat ketat.    
+    
+Package Manager:     
+Tidak ada pengelola paket resmi yang modern (biasanya menggunakan Flex SDK atau pengelolaan manual file .swc).    
+    
+Framework/Library:     
+Starling (Game Engine 2D), Away3D (Engine 3D), RobotLegs (MVC framework).    
+    
+contoh Proyek terkenal:    
+FarmVille, Club Penguin, Pemutar video YouTube versi awal, dan game-game di situs Newgrounds/Friv.    
+    
+Popularitas:     
+Sangat Rendah (Legacy). Sekarang hanya digunakan oleh komunitas pelestari game Flash atau pengembang aplikasi desktop spesifik menggunakan Adobe AIR.    
+    
+platform:     
+Web (via Flash Player - EOL), DesktopApps (Adobe AIR), MobileDev (iOS/Android via AIR), Scripting.    
+    
+Batasan:     
+Tergantung pada Flash Player yang sudah tidak didukung (End of Life), konsumsi CPU yang tinggi, dan masalah keamanan yang sering ditemukan pada runtime-nya.

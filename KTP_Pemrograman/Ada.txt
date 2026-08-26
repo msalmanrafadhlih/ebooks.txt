@@ -1,0 +1,52 @@
+====================================== START
+
+Ada (1980) – oleh Jean Ichbiah (CII Honeywell Bull)    
+
+Contoh kode:    
+with Ada.Text_IO; use Ada.Text_IO;
+
+procedure Hello is
+begin
+   Put_Line ("Hello, Ada World!");
+end Hello;
+    
+"Bahasa yang dirancang dengan standar keamanan dan keandalan militer. Ada dikenal karena kemampuannya dalam menangani sistem kritis yang tidak boleh gagal, di mana kesalahan perangkat lunak bisa berarti fatal."    
+    
+Motto:     
+"Safety, reliability, and maintainability."        
+    
+spesialisasi:     
+Sistem kritis (safety-critical), kedirgantaraan (aerospace), pertahanan (defense), dan transportasi massal.    
+    
+Extension:     
+.ads (specification), .adb (body)    
+    
+Sistem Tipe:     
+Static & Strong (salah satu yang paling ketat di dunia)    
+    
+kepribadian:     
+Sangat disiplin, sangat teliti (verbose), dan perfeksionis. Ia tidak akan membiarkanmu menjalankan kode sebelum semuanya benar-benar aman menurut aturannya.    
+    
+Keunggulan:     
+Deteksi error yang luar biasa kuat pada saat kompilasi, dukungan bawaan untuk konkurensi (tasking), dan struktur kode yang sangat mudah dibaca untuk pemeliharaan jangka panjang.    
+    
+tingkat kesulitan:     
+Sulit. Memerlukan pemahaman mendalam tentang tipe data dan aturan keamanan yang sangat ketat, sehingga pengembang harus belajar 'berpikir' secara formal.    
+    
+Package Manager:     
+Alire (Ada LIbrary REpository)    
+    
+Framework/Library:     
+GNAT (Compiler/Toolset), SPARK (Formal verification), AWS (Ada Web Server).    
+    
+contoh Proyek terkenal:    
+Sistem kontrol penerbangan Boeing 787 Dreamliner, Sistem kereta api cepat TGV di Prancis, dan berbagai infrastruktur satelit serta rudal.    
+    
+Popularitas:     
+Menengah (Niche). Sangat dominan di industri Aerospace dan Defense, namun jarang digunakan untuk pengembangan aplikasi web atau konsumen umum.    
+    
+platform:     
+System, Embedded system, Aerospace, Defense, Real-time systems, Infrastruktur, Database.    
+    
+Batasan:     
+Sintaksis yang dianggap terlalu panjang (verbose) bagi standar modern, kurva pembelajaran yang curam, dan komunitas yang jauh lebih kecil dibandingkan bahasa seperti Python atau C++.

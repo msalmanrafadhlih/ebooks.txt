@@ -1,0 +1,19 @@
+====================================== START
+
+================ ABOUT NIX =================
+--------------------------------------------
+
+--------------------------------------------
+|   System.  |         Cara Kerja          |
+--------------------------------------------
+|  Bash/Arch | Do A -> B -> C              |
+|   Ansible  | Do 'A' with idempotensi     |
+|   Docker   | Build image - run Container |
+|     Nix    | "Deskripsikan hasil Akhir"  |
+--------------------------------------------
+
+
+/nix/var/nix/profiles/system/specialisation/chani/bin/switch-to-configuration switch
+
+
+--------------------------------------------

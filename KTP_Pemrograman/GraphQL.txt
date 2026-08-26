@@ -1,0 +1,64 @@
+====================================== START
+
+GraphQL (2015) – oleh Lee Byron & Facebook
+
+Contoh kode:
+# Permintaan data (Query) dari sisi klien
+query GetUserProfile {
+  user(id: "42") {
+    username
+    email
+    posts(limit: 5) {
+      title
+      content
+    }
+  }
+}
+
+# Definisi tipe di sisi server (Schema)
+type User {
+  id: ID!
+  username: String!
+  posts: [Post]
+}
+    
+"Sebenarnya bukan bahasa pemrograman untuk logika aplikasi, melainkan bahasa kueri (query language) untuk API dan runtime untuk mengeksekusi kueri tersebut. GraphQL memberikan kendali penuh kepada klien untuk meminta hanya data yang mereka butuhkan, tidak kurang dan tidak lebih."    
+    
+Motto:     
+"Ask for what you need, get exactly that."        
+    
+spesialisasi:     
+API Design, Data Fetching, Microservices, dan Agregasi Data dari berbagai sumber.    
+    
+Extension:     
+.graphql, .gql    
+    
+Sistem Tipe:     
+Static & Strong (berdasarkan Schema)    
+    
+kepribadian:     
+Sangat efisien, komunikatif, dan jujur. Ia tidak akan memberimu data sampah yang tidak kamu minta, tapi ia menuntut kamu untuk mendefinisikan struktur data dengan sangat jelas.    
+    
+Keunggulan:     
+Menghilangkan masalah Overfetching (ambil data kebanyakan) dan Underfetching (ambil data kurang), dokumentasi otomatis yang selalu sinkron dengan kode, serta kemampuan mengambil banyak resource dalam satu request tunggal.    
+    
+tingkat kesulitan:     
+Menengah. Sangat mudah bagi pengembang frontend untuk konsumsi data, namun memerlukan pemahaman mendalam di sisi backend untuk mengoptimalkan resolver dan menangani masalah performa seperti kueri N+1.    
+    
+Package Manager:     
+npm, yarn, pnpm (biasanya diimplementasikan melalui library ekosistem JavaScript/TypeScript).    
+    
+Framework/Library:     
+Apollo Server/Client, Relay, Hasura, Yoga, Nexus.    
+    
+contoh Proyek terkenal:    
+Facebook, GitHub API, Shopify, Pinterest, Twitter (X), dan Coursera.    
+    
+Popularitas:     
+Sangat Tinggi. Menjadi standar industri modern untuk komunikasi antara Frontend dan Backend, terutama pada aplikasi dengan struktur data yang kompleks.    
+    
+platform:     
+Webdev (Fe/Be), MobileDev, Clouds, API Gateway.    
+    
+Batasan:     
+Caching di sisi HTTP lebih sulit dibanding REST karena sering menggunakan metode POST, potensi kueri yang terlalu kompleks yang bisa membebani server, dan memerlukan waktu setup awal yang lebih lama.

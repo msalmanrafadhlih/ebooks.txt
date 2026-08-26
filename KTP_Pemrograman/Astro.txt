@@ -1,0 +1,62 @@
+====================================== START
+
+Astro (2021) – oleh Fred K. Schott & Astro Technology Company
+
+Contoh kode:
+---
+// Astro Component (Frontmatter)
+const name = "Astro";
+const features = ["Zero JS by default", "Islands Architecture", "Fast SEO"];
+---
+
+<section>
+  <h1>Halo dari {name}!</h1>
+  <ul>
+    {features.map((item) => <li>{item}</li>)}
+  </ul>
+</section>
+
+<style>
+  h1 { color: #ff5d01; }
+</style>
+
+"Framework web modern yang dirancang untuk membangun situs web berbasis konten dengan performa ekstrem. Astro mempopulerkan 'Islands Architecture', di mana situs dikirim sebagai HTML statis murni, dan JavaScript hanya dimuat untuk komponen interaktif yang benar-benar membutuhkannya."
+
+Motto:
+"The web framework for content-driven websites."
+
+spesialisasi:
+Situs Statis (SSG), Dokumentasi, Blog, Landing Page, dan E-commerce berkecepatan tinggi.
+
+Extension:
+.astro
+
+Sistem Tipe:
+Static (TypeScript support) & Dynamic (JavaScript).
+
+kepribadian:
+Sangat hemat dan pilih-pilih. Ia benci mengirim JavaScript yang tidak perlu ke browser pengguna. Ia adalah 'tuan rumah' yang sangat ramah; ia membolehkan React, Vue, Svelte, dan Solid tinggal bersama dalam satu proyek tanpa berantem.
+
+Keunggulan:
+Performa SEO yang luar biasa karena 'zero client-side JS' secara default, fleksibilitas menggunakan komponen UI dari framework lain, dan Developer Experience (DX) yang sangat nyaman dengan dokumentasi yang rapi.
+
+tingkat kesulitan:
+Mudah. Jika kamu sudah mengerti HTML dan sedikit JavaScript, kamu akan merasa seperti di rumah sendiri.
+
+Package Manager:
+npm, pnpm, yarn, bun.
+
+Framework/Library:
+Astro Integrations (Tailwind, MDX, Image service), React, Vue, Svelte, Solid.js.
+
+contoh Proyek terkenal:
+Dokumentasi Firebase, website The Guardian (beberapa bagian), korporat landing pages, dan ribuan blog developer ternama.
+
+Popularitas:
+Sangat Tinggi (The 'Rising Star' of web frameworks). Menjadi pilihan utama bagi pengembang yang bosan dengan beratnya Single Page Applications (SPA) untuk sekadar membuat blog.
+
+platform:
+Web (SSG/SSR), Edge, Serverless, Cloudflare Workers, Vercel, Netlify.
+
+Batasan:
+Kurang cocok untuk aplikasi web yang sangat kompleks dan penuh state (seperti dashboard admin yang sangat interaktif atau editor foto online), karena kekuatannya ada pada konten statis.

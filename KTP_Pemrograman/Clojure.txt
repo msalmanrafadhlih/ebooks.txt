@@ -1,0 +1,54 @@
+====================================== START
+
+Clojure (2007) – oleh Rich Hickey    
+
+Contoh kode:    
+(defn sapa-dunia [nama]
+  (println (str "Halo, " nama "! Selamat datang di dunia Lisp.")))
+
+;; List comprehension gaya fungsional
+(def angka-genap (filter even? (range 10)))
+
+(sapa-dunia "Programmer")
+(println "Angka genap:" angka-genap)
+    
+"Bahasa pemrograman fungsional murni yang berjalan di atas Java Virtual Machine (JVM). Clojure adalah dialek Lisp yang modern dan tangguh, dirancang untuk memudahkan penanganan data yang kompleks dan sistem konkurensi tinggi."    
+    
+Motto:     
+"Code as Data" (Homoiconicity) & "Immutability by default."        
+    
+spesialisasi:     
+Full-stack Web Development, Data Processing, Distributed Systems, dan Enterprise Backend.    
+    
+Extension:     
+.clj, .cljs (ClojureScript), .cljc, .edn    
+    
+Sistem Tipe:     
+Dynamic & Strong    
+    
+kepribadian:     
+Sangat logis, filosofis, dan minimalis. Ia sangat membenci variabel yang bisa berubah-ubah (mutable state) dan lebih memilih struktur data yang tetap (immutable).    
+    
+Keunggulan:     
+Interoperabilitas sempurna dengan Java (bisa pakai semua library Java), pengembangan super cepat melalui REPL (Live coding), dan penanganan sistem paralel yang sangat aman tanpa 'deadlock'.    
+    
+tingkat kesulitan:     
+Sulit. Memerlukan perubahan paradigma berpikir total (paradigm shift) dari gaya imperatif/OOP ke fungsional, ditambah sintaksis Lisp yang penuh dengan tanda kurung.    
+    
+Package Manager:     
+Leiningen, Clojure CLI (deps.edn).    
+    
+Framework/Library:     
+Ring (Web), Re-frame (Frontend), Datomic (Database).    
+    
+contoh Proyek terkenal:    
+Sistem perbankan di Nubank (bank digital terbesar di Amerika Latin), infrastruktur data di Walmart, dan berbagai sistem di Cisco.    
+    
+Popularitas:     
+Menengah (Niche). Sangat populer di kalangan pengembang senior yang mengutamakan kualitas kode dan kebahagiaan dalam memecahkan masalah logika yang rumit.    
+    
+platform:     
+General Purpose, Webdev (Be/Fe), Data science, Clouds, DevOps, Infrastruktur, Functional programming.    
+    
+Batasan:     
+Waktu startup yang cukup lambat (JVM cold start) dan pesan error (stack trace) yang terkadang sulit dipahami oleh pemula karena terlalu teknis ke arah Java.

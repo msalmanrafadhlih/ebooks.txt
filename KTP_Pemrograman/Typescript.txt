@@ -1,0 +1,58 @@
+====================================== START
+
+TypeScript (2012) – oleh Anders Hejlsberg (Microsoft)    
+
+Contoh kode:    
+interface User {
+    id: number;
+    name: string;
+    isDeveloper: boolean;
+}
+
+function greet(user: User): string {
+    return `Hello, ${user.name}! Welcome to type-safe world.`;
+}
+
+const me: User = { id: 1, name: "Tquilla", isDeveloper: true };
+console.log(greet(me));
+    
+"Superset dari JavaScript yang menambahkan sistem tipe statis. TypeScript dirancang untuk membantu pengembang menangkap bug lebih awal dan membangun aplikasi skala besar dengan lebih percaya diri, tanpa meninggalkan ekosistem JavaScript."    
+    
+Motto:     
+"JavaScript that scales." (JavaScript yang berskala).        
+    
+spesialisasi:     
+Web Development (Frontend & Backend) skala besar, Enterprise Apps, dan pengembangan library modern.    
+    
+Extension:     
+.ts, .tsx    
+    
+Sistem Tipe:     
+Static & Strong (Structural Typing)    
+    
+kepribadian:     
+Cerdas, teliti, dan sangat protektif—ia adalah asisten yang akan mengoreksi kesalahanmu sebelum program dijalankan, memastikan semuanya sesuai rencana.    
+    
+Keunggulan:     
+Dukungan autocompletion (Intellisense) yang luar biasa, deteksi error saat penulisan kode, dan kemampuan refactoring yang aman pada proyek-proyek besar.    
+    
+tingkat kesulitan:     
+Menengah. Sangat mudah bagi yang sudah mengenal JavaScript, namun memiliki kedalaman fitur tipe (seperti Generics dan Union Types) yang cukup menantang untuk dikuasai sepenuhnya.    
+    
+Package Manager:     
+npm, yarn, pnpm.    
+    
+Framework/Library:     
+Angular, NestJS, tRPC.    
+    
+contoh Proyek terkenal:    
+Visual Studio Code, Slack (Desktop), Deno, dan hampir semua library frontend modern saat ini (seperti React dan Vue yang kini mengutamakan TS).    
+    
+Popularitas:     
+Sangat Tinggi. Sudah menjadi standar industri wajib bagi Web Developers, Full-stack Engineers, dan pengembang aplikasi cross-platform.    
+    
+platform:     
+Webdev (Fe/Be), MobileDev (React Native), DesktopApps (Electron), Scripting, Automation, Clouds.    
+    
+Batasan:     
+Memerlukan langkah kompilasi (transpilasi) sebelum bisa dijalankan di browser/Node.js, dan terkadang membutuhkan waktu ekstra untuk menuliskan definisi tipe pada kode yang sangat dinamis.

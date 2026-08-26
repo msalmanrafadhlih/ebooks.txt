@@ -1,0 +1,70 @@
+====================================== START
+Situs Resmi:                     www.lua.org
+               Introduction
+--------------------------------------------
+        Lua = Bulan dalam Portugis
+
+-> stdout menggunakan print
+
+   > print("Hello")
+     Ouput ------- Hello
+
+-> eksekusi lua berjalan dari atas ke bwh
+-> Debugging Lua:
+
+   > lua <file>.lua
+
+VARIABLE
+-> Lua secara dinamis ditipekan, jadi todak perlu mendeklarsikan tipe secara manual
+-> string dengan tunggal atau ganda
+
+1. Bilangan
+   > age = 25 
+     pi  = 3.14156
+
+2. String
+   > name     = "Alice" 
+     greeting = "Hello, Lua!"
+
+3. Boolean
+   > is_sunny   = true
+     is_raining = false
+
+4. Nil (null)
+   > empty_variable =
+     Output ------- nil
+
+-> Cetak variable
+   > print(name) -- Alice
+     print(age) -- 25
+     print(is_sunny) -- true
+     print(empty_variable) -- nil
+
+KOMENTAR
+-> Komentar dimulai dengan " -- "
+
+OPERASI DASAR
+1. Operasi Aritmetika
+
+   > a, b = 10, 3
+     print(a + b) -- pertambahan
+     print(a - b) -- perkurangan
+     print(a / c) -- pembagian
+     print(a * b) -- perkalian
+     print(a % b) -- Modulus(sisa)
+     print(a ^ b) -- Eksponen
+     Output ------- 13, 7, 3.33, 30, 1, 1000
+	
+2. Konkatenasi String
+-> operator " .. " digunakan untuk konkatenasi string
+-> operator " # " untuk mengambalikan panjang string/tabel
+ 
+   > 1st_name, 2nd_name = "John", "Doe"
+     fullname = 1st_name .. " " .. 2nd_name
+     print(fullname) -- John Doe
+     print(#fullname) -- 10(Total char)
+
+STRUKTUR KONTROL
+-> logika dasar dalam kode
+
+1. Statemen if 

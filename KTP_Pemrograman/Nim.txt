@@ -1,0 +1,54 @@
+====================================== START
+
+Nim (2008) – oleh Andreas Rumpf    
+
+Contoh kode:    
+proc main() =
+  let features = @["Fast", "Clean", "Metaprogramming"]
+  echo "Nim is: ", features.join(", ")
+
+  for i in 1..3:
+    echo "Iteration: ", i
+
+main()
+    
+"Bahasa pemrograman sistem yang efisien, ekspresif, dan elegan. Nim menawarkan performa yang setara dengan C namun dengan sintaksis yang bersih dan mudah dibaca seperti Python, serta memiliki sistem metaprogramming yang sangat kuat."    
+    
+Motto:     
+"Efficient, expressive, elegant."        
+    
+spesialisasi:     
+Systems programming, High-performance backend, Game development, dan Scripting.    
+    
+Extension:     
+.nim    
+    
+Sistem Tipe:     
+Static & Strong (dengan Type Inference yang kuat)    
+    
+kepribadian:     
+Pragmatis dan fleksibel. Ia terlihat seperti Python, namun bertindak seperti C, memberikan kontrol penuh tanpa harus menulis kode yang berbelit-belit.    
+    
+Keunggulan:     
+Kompilasi ke C/C++ yang menghasilkan file binari sangat kecil dan cepat tanpa ketergantungan (dependency) yang berat, serta fitur Macro yang memungkinkan modifikasi bahasa di tingkat kompilasi.    
+    
+tingkat kesulitan:     
+Menengah. Sintaksis dasarnya sangat mudah dipahami, namun memahami konsep tingkat lanjut seperti sistem macro dan manajemen memori (ARC/ORC) membutuhkan pemahaman lebih dalam.    
+    
+Package Manager:     
+Nimble    
+    
+Framework/Library:     
+Jester (Web Framework), Karax (Frontend SPA), Nimpy (Python interop).    
+    
+contoh Proyek terkenal:    
+Nitter (Alternative Twitter front-end), Status (Ethereum Client), dan berbagai alat keamanan siber (Offensive Security tools).    
+    
+Popularitas:     
+Menengah (Niche). Sangat dihargai oleh Systems Engineers, Security Researchers, dan pengembang yang ingin mencari alternatif lebih ringan dari Rust atau C++.    
+    
+platform:     
+General Purpose, Webdev (Be/Fe), DesktopApps, System, Embedded system, Scripting, Automation.    
+    
+Batasan:     
+Komunitas yang relatif lebih kecil dibandingkan Rust atau Go, sehingga jumlah tutorial dan library pihak ketiga tidak sebanyak bahasa pesaingnya.

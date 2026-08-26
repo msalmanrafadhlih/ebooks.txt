@@ -1,0 +1,55 @@
+====================================== START
+
+Haskell (1990) – oleh Komite Haskell (Paul Hudak, Philip Wadler, dkk.)    
+
+Contoh kode:    
+-- Fungsi faktorial dengan pola pencocokan (pattern matching)
+factorial :: Integer -> Integer
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+
+main :: IO ()
+main = do
+    putStrLn "Hello, Haskell!"
+    print (factorial 5)
+    
+"Bahasa pemrograman fungsional murni yang sangat matematis. Haskell dikenal karena sistem tipenya yang sangat canggih dan evaluasi malas (lazy evaluation), di mana sebuah ekspresi hanya akan dihitung jika benar-benar dibutuhkan."    
+    
+Motto:     
+"Avoid success at all costs" (Sering dikutip sebagai lelucon tentang menjaga kemurnian akademik di atas popularitas komersial).        
+    
+spesialisasi:     
+Riset akademik, analisis data keuangan yang kompleks, verifikasi formal, dan pembuatan compiler.    
+    
+Extension:     
+.hs, .lhs    
+    
+Sistem Tipe:     
+Static & Strong (Hindley-Milner type inference)    
+    
+kepribadian:     
+Sangat akademis, perfeksionis, dan disiplin tinggi. Ia tidak menyukai 'efek samping' (side effects) dan memaksa pemrogram untuk memisahkan logika murni dari interaksi dunia luar.    
+    
+Keunggulan:     
+Kode yang sangat ringkas dan elegan, keamanan program yang sangat tinggi karena bug sulit masuk ke sistem tipe, serta dukungan konkurensi yang sangat efisien dan aman.    
+    
+tingkat kesulitan:     
+Sangat Sulit. Membutuhkan pergeseran paradigma total dari pemrograman imperatif. Konsep seperti Monad, Functor, dan Applicative sering kali menjadi tantangan besar bagi pemula.    
+    
+Package Manager:     
+Cabal, Stack.    
+    
+Framework/Library:     
+Yesod (Web), Servant (Web API), Haxl (Data Access).    
+    
+contoh Proyek terkenal:    
+Pandoc (alat konversi dokumen), ShellCheck (static analysis untuk script shell), PostgREST, dan Cardano (Blockchain).    
+    
+Popularitas:     
+Menengah (Niche). Sangat populer di kalangan akademisi, peneliti bahasa pemrograman, dan insinyur di industri keuangan atau keamanan tinggi.    
+    
+platform:     
+General Purpose, Functional programming, Clouds, Infrastructure, Webdev (Be), System.    
+    
+Batasan:     
+Kurva pembelajaran yang sangat tajam, performa yang terkadang sulit diprediksi karena efek dari lazy evaluation, dan ekosistem library yang tidak sekomplit Python atau Java untuk kebutuhan umum.

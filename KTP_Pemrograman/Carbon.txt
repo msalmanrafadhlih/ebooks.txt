@@ -1,0 +1,53 @@
+====================================== START
+
+Carbon (2022) – oleh Google (Chandler Carruth)    
+
+Contoh kode:    
+package Sample api;
+
+fn Main() -> i32 {
+    var s: auto = "Hello, Carbon!";
+    Print(s);
+    return 0;
+}
+    
+"Bahasa eksperimental yang dirancang sebagai penerus (successor) C++. Carbon bertujuan untuk memperbaiki kekurangan C++ tanpa meninggalkan performa, sambil memberikan interoperabilitas dua arah yang sempurna dengan kode C++ yang sudah ada."    
+    
+Motto:     
+"A successor language for C++" (Bahasa penerus untuk C++).        
+    
+spesialisasi:     
+Sistem kritis performa tinggi, aplikasi skala besar, dan modernisasi basis kode C++ yang masif.    
+    
+Extension:     
+.carbon    
+    
+Sistem Tipe:     
+Static & Strong    
+    
+kepribadian:     
+Modern, ambisius, dan sangat berorientasi pada transisi—ia berusaha menjadi jembatan yang nyaman bagi pengembang C++ untuk pindah ke era baru.    
+    
+Keunggulan:     
+Interoperabilitas total dengan C++ (bisa memanggil kode C++ dari Carbon dan sebaliknya), sintaksis yang lebih bersih dan modern, serta fokus pada keamanan memori yang lebih baik daripada C++.    
+    
+tingkat kesulitan:     
+Sulit. Meskipun lebih bersih dari C++, ia tetap membawa kompleksitas sistem tingkat rendah dan saat ini masih dalam tahap awal pengembangan (eksperimental).    
+    
+Package Manager:     
+Bazel (Alat build utama yang digunakan oleh Google).    
+    
+Framework/Library:     
+Masih dalam tahap awal (mengandalkan library C++ yang sudah ada seperti Abseil atau STL).    
+    
+contoh Proyek terkenal:    
+Saat ini masih dalam tahap riset dan pengembangan internal di Google (belum ada proyek publik berskala masif yang sepenuhnya Carbon).    
+    
+Popularitas:     
+Menengah (Trending/Experimental). Sangat menarik perhatian para Systems Engineers dan komunitas C++ yang mencari jalur evolusi bahasa.    
+    
+platform:     
+System, Performance-critical apps, DesktopApps, Gamedev, Infrastruktur.    
+    
+Batasan:     
+Masih berstatus eksperimental (0.1), ekosistem alat bantu yang belum matang, dan masa depannya sangat bergantung pada adopsi komunitas C++.

@@ -1,0 +1,51 @@
+====================================== START
+C (1972) – oleh Dennis Ritchie
+
+Contoh kode:
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+"Bahasa tingkat rendah yang memberikan kontrol penuh atas perangkat keras, sering disebut sebagai 'Mother of Programming Languages' karena pengaruhnya yang masif terhadap bahasa-bahasa modern."
+
+Motto:
+"Trust the programmer" (Percaya sepenuhnya pada pemrogram).
+
+spesialisasi:
+Pengembangan sistem operasi, kernel, driver, dan sistem tertanam (embedded systems).
+
+Extension:
+.c, .h
+
+Sistem Tipe:
+Static & Weak
+
+kepribadian:
+Minimalis, sangat disiplin, transparan terhadap mesin, dan tidak suka menyembunyikan kompleksitas.
+
+Keunggulan:
+Performa eksekusi yang luar biasa cepat, akses langsung ke memori (pointer), dan portabilitas tinggi di berbagai arsitektur hardware.
+
+tingkat kesulitan:
+Sulit. Pengguna harus mengelola memori secara manual dan memahami konsep pointer yang bisa menyebabkan error fatal jika tidak hati-hati.
+
+Package Manager:
+Tidak ada (Resmi). Biasanya menggunakan Makefile atau pengelola eksternal seperti Conan atau Vcpkg.
+
+Framework/Library:
+Glibc (Standard C Library), OpenSSL, SQLite.
+
+contoh Proyek terkenal:
+Kernel Linux, Sistem Operasi Windows, Git, Database MySQL, dan Interpreter Python (CPython).
+
+Popularitas:
+Sangat Tinggi/Legendaris. Digunakan secara global oleh Software Engineers, Systems Programmers, dan Embedded Developers.
+
+platform:
+System, Embedded system, IoT, OS Development, Database, Game Engine, Driver, Compiler.
+
+Batasan:
+Tidak adanya manajemen memori otomatis (Garbage Collection), rawan terhadap celah keamanan seperti Buffer Overflow, dan tidak mendukung Object-Oriented Programming (OOP) secara bawaan.

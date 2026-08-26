@@ -1,0 +1,55 @@
+====================================== START
+
+PHP (1995) – oleh Rasmus Lerdorf    
+
+Contoh kode:    
+<?php
+$name = "PHP";
+echo "Hello, $name!";
+
+$ecosystem = ["Laravel", "WordPress", "Symfony"];
+foreach ($ecosystem as $item) {
+    echo "\nPowered by PHP: " . $item;
+}
+?>
+    
+"Mesin penggerak utama web dunia yang dirancang khusus untuk pengembangan sisi server. Meskipun sering diperdebatkan, PHP tetap menjadi tulang punggung bagi sebagian besar situs web di internet hingga saat ini."    
+    
+Motto:     
+"Hypertext Preprocessor (Originally: Personal Home Page)"        
+    
+spesialisasi:     
+Server-side Web Development (Backend).    
+    
+Extension:     
+.php    
+    
+Sistem Tipe:     
+Dynamic & Weak (namun versi modern mendukung Type Hinting yang kuat).    
+    
+kepribadian:     
+Sangat pragmatis, fleksibel, mudah ditemui di mana-mana (omnipresent), dan sangat 'to-the-point' dalam menangani permintaan web.    
+    
+Keunggulan:     
+Kemudahan deployment yang luar biasa, dokumentasi resmi yang sangat lengkap, dan komunitas global yang sangat masif.    
+    
+tingkat kesulitan:     
+Sangat Mudah. Sangat ramah bagi pemula karena tidak membutuhkan setup yang rumit untuk melihat hasilnya di browser.    
+    
+Package Manager:     
+Composer    
+    
+Framework/Library:     
+Laravel, Symfony, CodeIgniter.    
+    
+contoh Proyek terkenal:    
+WordPress, Wikipedia, Facebook (awalnya), Etsy, dan Slack (Backend).    
+    
+Popularitas:     
+Sangat Tinggi. Digunakan oleh hampir 70-80% website di seluruh dunia, terutama oleh Web Developers, Freelancers, dan pengelola CMS.    
+    
+platform:     
+Webdev (Be), Scripting, Automation.    
+    
+Batasan:     
+Kurang cocok untuk aplikasi non-web (seperti Desktop atau Mobile native) dan sering kali dianggap memiliki desain fungsi bawaan yang kurang konsisten pada versi-versi lamanya.

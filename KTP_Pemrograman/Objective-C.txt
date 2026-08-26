@@ -1,0 +1,65 @@
+====================================== START
+
+Objective-C (1984) – oleh Brad Cox & Tom Love (StepStone)
+
+Contoh kode:
+#import <Foundation/Foundation.h>
+
+@interface Sapaan : NSObject
+- (void)katakanHalo:(NSString *)nama;
+@end
+
+@implementation Sapaan
+- (void)katakanHalo:(NSString *)nama {
+    NSLog(@"Halo, %@! Selamat datang di dunia kurung kotak.", nama);
+}
+@end
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        Sapaan *obj = [[Sapaan alloc] init];
+        [obj katakanHalo:@"Tquilla"];
+    }
+    return 0;
+}
+
+"Bahasa utama yang membangun fondasi ekosistem Apple selama puluhan tahun. Objective-C adalah perpaduan unik antara kecepatan bahasa C dan sistem pengiriman pesan (messaging) ala Smalltalk."
+
+Motto:
+"The power of C with the elegance of Smalltalk messaging."
+
+spesialisasi:
+Pengembangan aplikasi macOS dan iOS (Legacy), sistem inti Apple, dan library tingkat rendah.
+
+Extension:
+.m (implementation), .h (header), .mm (Objective-C++)
+
+Sistem Tipe:
+Static & Dynamic (Dynamic Runtime)
+
+kepribadian:
+Sangat formal, sangat cerewet (verbose), dan sangat terikat pada tradisi kurung kotak `[]`. Ia adalah sosok 'senior' di Apple yang sangat disiplin namun memberikan fleksibilitas luar biasa di masa lalu.
+
+Keunggulan:
+Runtime yang sangat dinamis (bisa memodifikasi perilaku aplikasi saat sedang berjalan), interoperabilitas sempurna dengan C dan C++, serta stabilitas yang sudah teruji oleh jutaan aplikasi di App Store.
+
+tingkat kesulitan:
+Sulit. Sintaksisnya sering dianggap aneh oleh programmer modern karena penggunaan kurung kotak yang masif dan manajemen memori (sebelum ada ARC) yang cukup membingungkan.
+
+Package Manager:
+CocoaPods, Carthage.
+
+Framework/Library:
+Foundation, UIKit, AppKit, Core Data.
+
+contoh Proyek terkenal:
+Seluruh sistem operasi iOS dan macOS versi awal, browser Safari, iTunes, dan hampir semua aplikasi iPhone sebelum era Swift.
+
+Popularitas:
+Menurun (digantikan oleh Swift untuk proyek baru). Namun, masih sangat penting bagi pengembang yang memelihara aplikasi besar (legacy) atau bekerja pada sistem internal Apple.
+
+platform:
+DesktopApps (macOS), MobileDev (iOS), System, Infrastructure.
+
+Batasan:
+Sintaksis yang bertele-tele, kurangnya fitur bahasa modern seperti generics (yang baru ditambahkan belakangan), dan ekosistem yang perlahan-lahan beralih sepenuhnya ke Swift.

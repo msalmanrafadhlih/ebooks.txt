@@ -1,0 +1,60 @@
+====================================== START
+
+Lua (1993) – oleh Roberto Ierusalimschy, dkk. (PUC-Rio, Brasil)
+
+Contoh kode:
+-- Tabel adalah satu-satunya struktur data di Lua
+local config = {
+    theme = "tokyonight",
+    transparent = true,
+    plugins = {"telescope", "treesitter", "lualine"}
+}
+
+function sapa_user(nama)
+    print("Halo, " .. nama .. "! Lua siap menjalankan skripmu.")
+end
+
+sapa_user("Tquilla")
+-- Fun fact: Index di Lua dimulai dari 1!
+print("Plugin pertama: " .. config.plugins[1])
+
+"Bahasa skrip yang sangat ringan, cepat, dan didesain khusus untuk disematkan (embedded) ke dalam aplikasi lain. Lua adalah 'lem' yang sempurna untuk menghubungkan komponen perangkat lunak yang kompleks dengan cara yang sederhana."
+
+Motto:
+"Small is beautiful." (Kecil itu indah).
+
+spesialisasi:
+Konfigurasi aplikasi, Game scripting, Embedded systems, dan pengembangan alat terminal (CLI).
+
+Extension:
+.lua
+
+Sistem Tipe:
+Dynamic & Strong
+
+kepribadian:
+Sangat rendah hati, minimalis, dan sangat cepat (terutama dengan LuaJIT). Ia tidak suka memberikan banyak aturan; ia hanya memberikan alat dasar (seperti tabel) dan membiarkanmu membangun segalanya dari sana.
+
+Keunggulan:
+Ukuran binari yang sangat kecil, kecepatan eksekusi yang luar biasa untuk bahasa skrip, sangat mudah dipelajari, dan sangat fleksibel untuk kustomisasi editor atau window manager.
+
+tingkat kesulitan:
+Sangat Mudah. Sintaksisnya sangat bersih, namun membutuhkan pembiasaan bagi mereka yang terbiasa dengan index nol (0) karena Lua menggunakan index satu (1).
+
+Package Manager:
+LuaRocks
+
+Framework/Library:
+LÖVE (GameDev), Lapis (Web), Plenary.nvim (Neovim development).
+
+contoh Proyek terkenal:
+Roblox, World of Warcraft, Neovim (untuk konfigurasi dan plugin), AwesomeWM, dan EWW (ElKowar's Wacky Widgets).
+
+Popularitas:
+Tinggi (Sangat dominan di komunitas GameDev dan Power Users terminal). Favorit bagi mereka yang suka melakukan kustomisasi sistem secara mendalam.
+
+platform:
+General Purpose, Gamedev, DesktopApps, System, Embedded system, IoT, Scripting, Automation.
+
+Batasan:
+Library standar yang sangat minimal (tidak 'batteries included' seperti Python), dan ekosistemnya terkadang terasa terfragmentasi di antara berbagai versi Lua (5.1, 5.4, LuaJIT).

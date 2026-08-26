@@ -1,0 +1,61 @@
+====================================== START
+
+Solidity (2014) – oleh Christian Reitwiessner, Alex Beregszaszi, Gavin Wood (Ethereum)
+
+// Contoh kode: Smart Contract Sederhana
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract KTPCrypto {
+    string public namaBahasa = "Solidity";
+    address public owner;
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    function sapa() public view returns (string memory) {
+        return string(abi.encodePacked("Halo dari ", namaBahasa, "!"));
+    }
+}
+
+"Bahasa pemrograman berorientasi objek tingkat tinggi yang dirancang khusus untuk menulis Smart Contracts. Solidity adalah bahasa yang menggerakkan ekosistem Ethereum dan berbagai blockchain berbasis EVM lainnya, memungkinkan transaksi yang 'trustless' dan otomatis."
+
+Motto:
+"Code is Law." (Kode adalah Hukum).
+
+spesialisasi:
+Smart Contracts, Decentralized Finance (DeFi), Non-Fungible Tokens (NFTs), Decentralized Autonomous Organizations (DAOs).
+
+Extension:
+.sol
+
+Sistem Tipe:
+Static & Strong
+
+kepribadian:
+Sangat protektif, perfeksionis, dan agak paranoid. Karena ia sering menangani aset bernilai jutaan dolar, ia tidak akan membiarkan kesalahan sekecil apa pun lolos—sekali kode di-deploy, hampir mustahil untuk diubah.
+
+Keunggulan:
+Ekosistem pengembangan blockchain terbesar di dunia, dokumentasi yang sangat lengkap, dan dukungan library keamanan (seperti OpenZeppelin) yang sangat matang.
+
+tingkat kesulitan:
+Menengah. Sintaksisnya terasa familiar bagi pengguna JavaScript atau C++, namun tantangan terbesarnya adalah memahami keamanan (security) dan manajemen biaya transaksi (Gas optimization).
+
+Package Manager:
+npm/yarn (untuk tool seperti Hardhat) atau Forge/Foundry (untuk tool berbasis Rust).
+
+Framework/Library:
+OpenZeppelin (Security), Hardhat, Foundry, Truffle, Brownie.
+
+contoh Proyek terkenal:
+Uniswap, Aave, Bored Ape Yacht Club (NFT contracts), dan mayoritas protokol DeFi di ekosistem Ethereum.
+
+Popularitas:
+Sangat Tinggi di dunia Web3 dan Blockchain. Menjadi keahlian yang paling dicari dalam industri kripto.
+
+platform:
+Blockchain (EVM-compatible), Ethereum, Layer 2, Smart Contracts.
+
+Batasan:
+Immutable (kode tidak bisa diubah setelah di-deploy), biaya eksekusi (Gas) yang bisa sangat mahal, dan risiko eksploitasi keamanan yang sangat fatal jika logika kodenya cacat.

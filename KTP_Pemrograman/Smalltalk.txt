@@ -1,0 +1,54 @@
+====================================== START
+
+Smalltalk (1972) – oleh Alan Kay, Dan Ingalls, Adele Goldberg (Xerox PARC)
+
+Contoh kode:
+"Dalam Smalltalk, kita mengirim pesan ke objek"
+Transcript show: 'Halo, Tquilla!'.
+
+"Membuat objek baru dan mengirim pesan"
+Array with: 1 with: 2 with: 3.
+
+"Iterasi fungsional"
+#(1 2 3 4 5) collect: [ :n | n * n ].
+
+"Bahasa pemrograman berorientasi objek murni yang merevolusi cara kita berpikir tentang perangkat lunak. Smalltalk bukan sekadar bahasa, melainkan sebuah 'lingkungan hidup' (Image) di mana kode, data, dan antarmuka pengguna menyatu tanpa batas."
+
+Motto:
+"Everything is an object." (Segalanya adalah objek).
+
+spesialisasi:
+Pemrograman Berorientasi Objek (OOP), Live Programming, desain antarmuka pengguna (GUI), dan simulasi sistem kompleks.
+
+Extension:
+.st
+
+Sistem Tipe:
+Dynamic & Strong
+
+kepribadian:
+Sangat konsisten, visioner, dan interaktif. Ia tidak suka proses edit-compile-run yang membosankan; ia ingin kamu langsung menyentuh dan mengubah objek saat aplikasi sedang berjalan.
+
+Keunggulan:
+Sintaksis yang sangat sederhana (bisa ditulis di atas kartu pos), fitur 'Live Coding' yang luar biasa, dan merupakan inspirasi utama bagi bahasa-bahasa besar seperti Objective-C, Java, Ruby, hingga Python.
+
+tingkat kesulitan:
+Mudah. Aturan bahasanya sangat sedikit, namun membutuhkan pergeseran paradigma karena Smalltalk tidak bekerja dengan file teks biasa, melainkan dengan 'snapshot' memori (Image).
+
+Package Manager:
+Metacello, Monticello (biasanya terintegrasi dalam IDE seperti Pharo).
+
+Implementasi Terkenal:
+Pharo, Squeak (penerus langsung), GNU Smalltalk, Dolphin Smalltalk.
+
+contoh Proyek terkenal:
+Inspirasi di balik antarmuka grafis (GUI) modern (Apple Lisa/Macintosh), sistem pengendalian militer, dan simulasi objek pertama di dunia.
+
+Popularitas:
+Menengah (Niche/Akademik). Meskipun jarang dipakai untuk aplikasi mainstream, ia tetap menjadi bahasa favorit bagi peneliti bahasa pemrograman dan pengembang yang mencari "pencerahan" tentang OOP yang sebenarnya.
+
+platform:
+General Purpose, GUI, System, Education, Research, Live Programming.
+
+Batasan:
+Ekosistem 'Image-based' membuatnya sulit dikelola dengan sistem kontrol versi tradisional (seperti Git), dan kinerjanya terkadang kurang optimal untuk tugas yang membutuhkan akses hardware tingkat rendah.

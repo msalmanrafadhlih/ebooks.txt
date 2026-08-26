@@ -1,0 +1,51 @@
+====================================== START
+
+COBOL (1959) – oleh Grace Hopper & Komite CODASYL    
+
+Contoh kode:    
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO-WORLD.
+PROCEDURE DIVISION.
+    DISPLAY 'Hello, World!'.
+    STOP RUN.
+    
+"Bahasa pemrograman veteran yang dirancang khusus untuk kebutuhan bisnis, administrasi, dan sistem keuangan. COBOL adalah 'raksasa yang tak terlihat' karena masih menggerakkan sebagian besar transaksi perbankan dunia hingga saat ini."    
+    
+Motto:     
+"Business-oriented and human-readable."        
+    
+spesialisasi:     
+Pemrosesan data bisnis skala besar, sistem perbankan, asuransi, dan administrasi pemerintahan.    
+    
+Extension:     
+.cob, .cbl    
+    
+Sistem Tipe:     
+Static & Strong    
+    
+kepribadian:     
+Sangat formal, sangat cerewet (sangat verbose), birokratis, dan sangat stabil. Ia lebih mirip menulis dokumen laporan daripada menulis kode komputer.    
+    
+Keunggulan:     
+Kemampuan luar biasa dalam menangani aritmatika desimal yang presisi (sangat penting untuk keuangan) dan daya tahan sistem yang bisa berjalan puluhan tahun tanpa henti.    
+    
+tingkat kesulitan:     
+Menengah. Sintaksisnya mudah dibaca karena mirip bahasa Inggris, namun struktur programnya sangat kaku dan ekosistem Mainframe yang digunakan sering kali asing bagi developer modern.    
+    
+Package Manager:     
+Tidak ada (biasanya dikelola secara manual dalam sistem Mainframe).    
+    
+Framework/Library:     
+CICS (Customer Information Control System), Batch Processing tools, GnuCOBOL libraries.    
+    
+contoh Proyek terkenal:    
+Sistem inti perbankan global (Core Banking), Sistem ATM, Sistem Jaminan Sosial AS (Social Security), dan sistem inventaris militer.    
+    
+Popularitas:     
+Rendah untuk proyek baru, namun Sangat Tinggi dalam hal nilai ekonomi. Digunakan oleh Mainframe Engineers dan Software Developers di sektor finansial dan pemerintahan.    
+    
+platform:     
+Mainframe, Database, Business, Infrastructure, Legacy systems.    
+    
+Batasan:     
+Sangat bertele-tele (butuh banyak baris untuk logika sederhana), kurangnya dukungan untuk paradigma pemrograman modern seperti OOP murni, dan semakin sulitnya mencari pengembang baru (regenerasi).

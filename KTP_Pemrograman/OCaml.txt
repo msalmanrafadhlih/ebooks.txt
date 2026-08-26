@@ -1,0 +1,53 @@
+====================================== START
+
+OCaml (1996) – oleh Xavier Leroy, dkk. (INRIA, Prancis)
+
+Contoh kode:    
+let rec faktorial n =
+  if n = 0 then 1 else n * faktorial (n - 1)
+
+let () =
+  let hasil = faktorial 5 in
+  print_endline "Hello, OCaml!";
+  Printf.printf "Faktorial 5 adalah %d\n" hasil
+    
+"Bahasa pemrograman fungsional tingkat lanjut yang dirancang untuk keamanan dan kecepatan. OCaml adalah pilihan utama bagi mereka yang membutuhkan sistem dengan tipe data yang sangat ketat namun tetap ingin performa eksekusi setingkat bahasa C."    
+    
+Motto:     
+"The language of industrial-strength functional programming."        
+    
+spesialisasi:     
+Pembuatan Compiler, Analisis Statis, Sistem Keuangan (HFT), Verifikasi Formal, dan Infrastruktur Cloud.    
+    
+Extension:     
+.ml, .mli (interface)    
+    
+Sistem Tipe:     
+Static & Strong (dengan Inference yang sangat presisi)    
+    
+kepribadian:     
+Sangat disiplin, matematis, dan tidak mentoleransi ambigu. Ia adalah sosok 'ilmuwan' yang bekerja di dunia industri; sangat teliti namun tetap praktis untuk dijalankan di dunia nyata.    
+    
+Keunggulan:     
+Sistem modul yang paling kuat di antara bahasa pemrograman lainnya, waktu kompilasi yang sangat cepat, keamanan memori tanpa garbage collector yang berat, dan kode yang sangat ringkas.    
+    
+tingkat kesulitan:     
+Sulit. Memerlukan pemahaman mendalam tentang rekursi, Pattern Matching, dan sistem tipe Hindley-Milner yang bisa membuat pusing bagi yang baru pindah dari bahasa imperatif.    
+    
+Package Manager:     
+Opam (Build tool: Dune).    
+    
+Framework/Library:     
+Dream (Web), MirageOS (Unikernels), Coq (Proof assistant).    
+    
+contoh Proyek terkenal:    
+Jane Street (Sistem trading global), Facebook (Flow, Hack, dan Infer), Tezos (Blockchain), dan Opam.    
+    
+Popularitas:     
+Menengah (Niche bergengsi). Sangat dihormati di sektor finansial, riset keamanan, dan pengembang bahasa pemrograman.    
+    
+platform:     
+General Purpose, Functional programming, System, Clouds, Infrastruktur.    
+    
+Batasan:     
+Ekosistem library umum (seperti untuk GUI atau Game) tidak seluas Python, dan dukungan multicore murni baru benar-benar matang di versi 5.0.

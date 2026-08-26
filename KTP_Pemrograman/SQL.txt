@@ -1,0 +1,51 @@
+====================================== START
+
+-- SQL (1974) – oleh Donald D. Chamberlin & Raymond F. Boyce (IBM)
+
+-- Contoh kueri: Mengambil data web developer yang pake NixOS
+SELECT username, job_title, os_preference 
+FROM developers 
+WHERE job_title = 'Fullstack JS' 
+  AND os_preference = 'NixOS'
+ORDER BY joined_date DESC;
+
+"Bukan sekadar bahasa pemrograman biasa, melainkan bahasa deklaratif khusus untuk mengelola dan memanipulasi data dalam sistem manajemen basis data relasional (RDBMS). SQL adalah standar emas yang memastikan data di seluruh dunia tetap terorganisir dan mudah dipanggil."
+
+Motto:
+"The language of data." (Bahasanya data).
+
+spesialisasi:
+Manajemen Database, Data Analysis, Backend Development, Reporting, dan Administrasi Data Enterprise.
+
+Extension:
+.sql
+
+Sistem Tipe:
+Static & Strong (Tipe data kolom harus didefinisikan secara eksplisit).
+
+kepribadian:
+Sangat 'bossy' (suka memerintah) dan literal. SQL tidak mau tahu 'bagaimana' cara kamu mencari data (algoritmanya); ia hanya ingin kamu memberi tahu 'apa' data yang kamu inginkan, lalu ia akan menyajikannya untukmu.
+
+Keunggulan:
+Sangat efisien untuk menangani jutaan baris data, memiliki standar internasional yang konsisten, dan kemampuan 'relasional' yang memungkinkan kita menghubungkan berbagai informasi dengan logika yang sangat kuat.
+
+tingkat kesulitan:
+Mudah untuk kueri dasar (SELECT/FROM), namun menjadi Menengah ke Sulit saat mulai berurusan dengan 'Optimization', 'Complex Joins', dan 'Stored Procedures'.
+
+Package Manager:
+Tidak ada secara native (DBA biasanya menggunakan tool seperti Flyway atau Liquibase untuk migrasi).
+
+Implementasi Terkenal (RDBMS):
+PostgreSQL (Favorit komunitas open-source), MySQL, SQLite (Ada di setiap smartphone), SQL Server, dan Oracle.
+
+contoh Proyek terkenal:
+Sistem perbankan dunia, database WordPress, backend aplikasi mobile favoritmu, hingga log transaksi di sistem e-commerce raksasa.
+
+Popularitas:
+Sangat Masif dan Abadi. Selama dunia masih menyimpan data dalam baris dan kolom, SQL akan tetap menjadi raja yang tak tergantikan.
+
+platform:
+Backend, Servers, Clouds, Data Science, Embedded systems (via SQLite).
+
+Batasan:
+Sulit untuk melakukan scaling horizontal secara masif dibandingkan database NoSQL, dan tidak fleksibel untuk data yang strukturnya sering berubah-ubah secara drastis.

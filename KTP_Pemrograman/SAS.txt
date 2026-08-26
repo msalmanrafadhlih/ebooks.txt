@@ -1,0 +1,57 @@
+====================================== START
+
+SAS (1976) – oleh Anthony James Barr, James Goodnight, dkk. (SAS Institute)    
+
+Contoh kode:    
+data data_pengguna;
+   input Nama $ Umur;
+   datalines;
+Tquilla 25
+Budi 30
+;
+run;
+
+proc print data=data_pengguna;
+   title 'Daftar Pengguna SAS';
+run;
+    
+"Sistem analisis statistik yang menjadi standar emas di dunia korporat untuk manajemen data tingkat lanjut, analisis multivariat, dan intelijen bisnis."    
+    
+Motto:     
+"The Power to Know."        
+    
+spesialisasi:     
+Analisis statistik mendalam, manajemen data besar (big data), uji klinis farmasi, dan manajemen risiko keuangan.    
+    
+Extension:     
+.sas    
+    
+Sistem Tipe:     
+Static & Strong    
+    
+kepribadian:     
+Sangat formal, kaku, sangat disiplin, dan sangat berorientasi pada tabel. Ia memisahkan dengan tegas antara bagian pengolahan data (DATA step) dan bagian prosedur analisis (PROC step).    
+    
+Keunggulan:     
+Kemampuan menangani dataset raksasa dengan stabilitas tinggi, memiliki dokumentasi yang sangat lengkap, dan merupakan standar wajib bagi industri yang diatur ketat (seperti perbankan dan kesehatan).    
+    
+tingkat kesulitan:     
+Menengah. Logika 'DATA step' cukup unik bagi mereka yang terbiasa dengan bahasa imperatif seperti C atau Python, namun sangat konsisten untuk keperluan pengolahan data.    
+    
+Package Manager:     
+Tidak ada pengelola paket publik (seperti npm/pip); fungsionalitas diperluas melalui pembelian modul resmi SAS.    
+    
+Framework/Library:     
+SAS/STAT (Statistik), SAS/GRAPH (Visualisasi), SAS/ETS (Ekonometrika).    
+    
+contoh Proyek terkenal:    
+Sistem pelaporan data klinis global (FDA Standard), sistem deteksi penipuan kartu kredit di bank-bank besar dunia, dan analisis data sensus pemerintah.    
+    
+Popularitas:     
+Tinggi di sektor Enterprise dan Pemerintahan. Digunakan oleh Statisticians, Data Analysts di industri finansial, dan Clinical Research Associates (CRA).    
+    
+platform:     
+Data science, Database, Business Intelligence, Infrastructure, Clouds, Statistical Analysis.    
+    
+Batasan:     
+Biaya lisensi yang sangat mahal (proprietary), ekosistem yang tertutup, dan kurang fleksibel untuk pengembangan aplikasi umum (seperti web atau mobile development).

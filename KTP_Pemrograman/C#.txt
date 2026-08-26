@@ -1,0 +1,54 @@
+====================================== START
+
+C# (2000) – oleh Anders Hejlsberg (Microsoft)
+
+Contoh kode:
+using System;
+
+class Program {
+    static void Main() {
+        string message = "Hello, .NET World!";
+        Console.WriteLine($"{message}");
+    }
+}
+
+"Bahasa pemrograman modern berorientasi objek yang dirancang untuk produktivitas tinggi tanpa mengorbankan performa, menjadi tulang punggung ekosistem Microsoft."
+
+Motto:
+"Elegant, simple, and powerful."
+
+spesialisasi:
+Enterprise applications, Pengembangan Game (Unity), dan aplikasi Desktop Windows.
+
+Extension:
+.cs
+
+Sistem Tipe:
+Static & Strong
+
+kepribadian:
+Disiplin, terstruktur, sangat konsisten, dan selalu berevolusi dengan fitur-fitur modern (syntactic sugar) yang memanjakan developer.
+
+Keunggulan:
+Integrasi luar biasa dengan alat pengembangan (Visual Studio), manajemen memori otomatis (Garbage Collection) yang efisien, dan performa sangat cepat melalui .NET Core/5+.
+
+tingkat kesulitan:
+Menengah. Mudah dipelajari bagi yang sudah paham logika dasar, namun memiliki kedalaman fitur yang luas seperti LINQ, Async/Await, dan Generics.
+
+Package Manager:
+NuGet
+
+Framework/Library:
+ASP.NET Core (Web), Unity (Game Dev), Entity Framework (ORM).
+
+contoh Proyek terkenal:
+Stack Overflow, Kerbal Space Program (Game), Microsoft Azure, Discord (Backend Services), dan Terraria.
+
+Popularitas:
+Sangat Tinggi. Favorit bagi Software Engineer di perusahaan besar (Enterprise), Game Developers (Unity), dan Full-stack Developers.
+
+platform:
+General Purpose, Webdev (Be), MobileDev (MAUI/Xamarin), DesktopApps, Gamedev, Clouds, IoT, Database.
+
+Batasan:
+Ukuran runtime .NET yang cukup besar, konsumsi RAM yang lebih tinggi dibanding bahasa native (C/C++), dan sejarah masa lalunya yang terlalu terikat pada Windows (meskipun sekarang sudah fully cross-platform).

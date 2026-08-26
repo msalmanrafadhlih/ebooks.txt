@@ -1,0 +1,55 @@
+====================================== START
+
+Prolog (1972) – oleh Alain Colmerauer & Philippe Roussel
+
+Contoh kode:
+% Mendefinisikan fakta
+orang_tua(budi, iwan).
+orang_tua(iwan, tono).
+
+% Mendefinisikan aturan (Rule)
+kakek(X, Z) :- orang_tua(X, Y), orang_tua(Y, Z).
+
+% Kueri: ?- kakek(budi, tono).
+% Output: true.
+
+"Bahasa pemrograman logika yang didasarkan pada kalkulus predikat. Alih-alih memberitahu komputer 'bagaimana' cara menyelesaikan masalah, kamu memberitahunya 'apa' fakta dan aturan yang ada, lalu membiarkan Prolog mencari solusinya sendiri melalui inferensi."
+
+Motto:
+"Programming in Logic."
+
+spesialisasi:
+Kecerdasan Buatan (AI) klasik, Sistem Pakar (Expert Systems), Pemrosesan Bahasa Alami (NLP), dan Teorema Proving.
+
+Extension:
+.pl, .pro, .P
+
+Sistem Tipe:
+Dynamic (Logic-based)
+
+kepribadian:
+Seorang detektif yang sangat gigih. Ia akan menelusuri setiap kemungkinan fakta (backtracking) untuk membuktikan suatu kebenaran, dan tidak akan berhenti sampai ia menemukan jawaban yang logis atau menyatakan bahwa hal tersebut salah.
+
+Keunggulan:
+Sangat efisien untuk masalah pencocokan pola (pattern matching), rekursi yang sangat alami, dan kemampuan melakukan pencarian solusi secara otomatis tanpa perlu menulis algoritma pencarian manual.
+
+tingkat kesulitan:
+Sulit. Memerlukan perubahan paradigma berpikir total dari imperatif (perintah) ke deklaratif (logika). Konsep seperti 'unification' dan 'backtracking' seringkali membingungkan bagi pemula.
+
+Package Manager:
+SWI-Prolog Pack Manager
+
+Framework/Library:
+SWI-Prolog, Amy, Ciao.
+
+contoh Proyek terkenal:
+Watson (IBM - pada tahap awal pengembangannya), sistem diagnosis medis, penjadwalan otomatis di bandara, dan sistem analisis hukum.
+
+Popularitas:
+Menengah (Niche). Sangat dominan di dunia riset akademik dan AI simbolik, namun jarang digunakan untuk pengembangan aplikasi komersial umum seperti web atau mobile.
+
+platform:
+AI, Research, Expert Systems, Data Logic, Linguistics.
+
+Batasan:
+Kurang optimal untuk komputasi numerik yang berat, manajemen input/output yang terkadang terasa kaku, dan ekosistem library untuk kebutuhan modern (seperti UI) yang sangat terbatas.

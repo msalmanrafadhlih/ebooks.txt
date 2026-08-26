@@ -1,0 +1,55 @@
+====================================== START
+
+JavaScript (1995) – oleh Brendan Eich (Netscape)    
+
+Contoh kode:    
+const greeting = "Hello, World!";
+const features = ["Async", "Dynamic", "Everywhere"];
+
+function showInfo(lang) {
+    console.log(`${lang} is awesome!`);
+    features.forEach(f => console.log(`- ${f}`));
+}
+
+showInfo("JavaScript");
+    
+"Bahasa yang awalnya diciptakan hanya dalam 10 hari untuk membuat web menjadi interaktif, kini telah berevolusi menjadi salah satu bahasa paling dominan yang menggerakkan hampir seluruh internet dan berbagai platform lainnya."    
+    
+Motto:     
+"Any application that can be written in JavaScript, will eventually be written in JavaScript." (Atwood's Law)        
+    
+spesialisasi:     
+Web Development (Frontend & Backend), Cross-platform Mobile Apps, dan Desktop Apps.    
+    
+Extension:     
+.js, .mjs, .cjs    
+    
+Sistem Tipe:     
+Dynamic & Weak    
+    
+kepribadian:     
+Sangat fleksibel, santai, sedikit kacau namun sangat kooperatif, dan selalu mengikuti tren terbaru.    
+    
+Keunggulan:     
+Ekosistem library terbesar di dunia (npm), dukungan komunitas yang masif, dan satu-satunya bahasa yang bisa berjalan secara native di semua browser web modern.    
+    
+tingkat kesulitan:     
+Mudah untuk pemula di tahap awal, namun menjadi sangat menantang saat harus mempelajari konsep asinkron (Promises/Async-Await), Prototype, dan perilaku aneh (quirks) pada tipe datanya.    
+    
+Package Manager:     
+npm, yarn, pnpm.    
+    
+Framework/Library:     
+React, Vue.js, Express.js.    
+    
+contoh Proyek terkenal:    
+Facebook, Gmail, YouTube, Slack (Desktop), dan Discord.    
+    
+Popularitas:     
+Sangat Masif (Bahasa paling banyak digunakan di GitHub). Digunakan oleh Web Developers, Full-stack Engineers, Mobile Developers, dan DevOps.    
+    
+platform:     
+Webdev (Be/Fe), MobileDev (iOS, Android, Cross), DesktopApps, Scripting, Automation, Clouds, IoT.    
+    
+Batasan:     
+Tidak adanya keamanan tipe secara bawaan (sebelum menggunakan TypeScript), performa yang kurang optimal untuk tugas komputasi berat (CPU-intensive), dan masalah inkonsistensi pada versi-versi lamanya.

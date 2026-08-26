@@ -1,0 +1,61 @@
+====================================== START
+
+Vyper (2017) – oleh Vitalik Buterin & Komunitas Ethereum
+
+Contoh kode: Smart Contract Vyper (Pythonic)
+# @version ^0.3.7
+
+interface ERC20:
+    def transfer(_to: address, _value: uint256) -> bool: view
+
+stored_data: public(uint256)
+
+@external
+def __init__(initial_value: uint256):
+    self.stored_data = initial_value
+
+@external
+def set_data(new_value: uint256):
+    assert msg.sender == self.owner, "Hanya owner yang bisa!"
+    self.stored_data = new_value
+
+"Bahasa pemrograman smart contract yang dirancang agar sangat mirip dengan Python. Vyper dibuat dengan filosofi 'Security over Features'; ia sengaja membuang fitur-fitur yang dianggap berbahaya atau membingungkan di Solidity demi menghasilkan kode yang lebih mudah diaudit dan aman secara desain."
+
+Motto:
+"Readable, Secure, and Auditable."
+
+spesialisasi:
+Smart Contracts (EVM), Decentralized Finance (DeFi), dan Auditability-focused development.
+
+Extension:
+.vy
+
+Sistem Tipe:
+Static & Strong
+
+kepribadian:
+Seorang penjaga keamanan yang sangat ketat dan disiplin. Ia tidak mengizinkanmu melakukan hal-hal 'gaib' seperti inheritance (pewarisan), rekursi, atau infinite loops. Ia ingin kodenya sejelas mungkin agar tidak ada celah bagi hacker.
+
+Keunggulan:
+Sintaksis yang sangat bersih (Pythonic), perlindungan bawaan terhadap overflow dan reentrancy (serangan paling umum di blockchain), serta ukuran bytecode yang seringkali lebih kecil dan efisien dibanding Solidity.
+
+tingkat kesulitan:
+Menengah. Sangat mudah dipelajari jika kamu sudah tahu Python, namun terasa 'menyakitkan' karena banyaknya batasan teknis demi keamanan yang harus kamu ikuti.
+
+Package Manager:
+pip (untuk compiler) atau toolchain berbasis Python lainnya (seperti Ape atau Brownie).
+
+Framework/Library:
+ApeWorX, Brownie, Titanoboa (Interpreter Vyper).
+
+contoh Proyek terkenal:
+Curve Finance (protokol DeFi raksasa), Uniswap v1, dan berbagai kontrak tata kelola (governance) yang mengutamakan keamanan tinggi.
+
+Popularitas:
+Menengah (Saingan utama Solidity). Sangat populer di kalangan pengembang yang mengutamakan keamanan audit dan mereka yang datang dari ekosistem Python/Data Science.
+
+platform:
+Blockchain (EVM-compatible), Ethereum.
+
+Batasan:
+Ekosistem library dan tutorialnya tidak seluas Solidity, tidak mendukung fitur OOP tingkat lanjut (sengaja), dan fleksibilitasnya lebih rendah demi menjaga keamanan.

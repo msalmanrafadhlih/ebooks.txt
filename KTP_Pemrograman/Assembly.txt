@@ -1,0 +1,62 @@
+====================================== START
+
+Assembly (1949) – oleh Kathleen Booth    
+
+Contoh kode:    
+section .data
+    msg db 'Hello, World!', 0xa
+
+section .text
+    global _start
+
+_start:
+    mov eax, 4          ; sistem call untuk sys_write
+    mov ebx, 1          ; file descriptor 1 (stdout)
+    mov ecx, msg        ; pesan yang akan dicetak
+    mov edx, 14         ; panjang pesan
+    int 0x80            ; panggil kernel
+
+    mov eax, 1          ; sistem call untuk sys_exit
+    xor ebx, ebx        ; return code 0
+    int 0x80
+    
+"Bahasa pemrograman tingkat paling rendah yang masih bisa dibaca manusia. Assembly adalah representasi simbolis langsung dari instruksi mesin (opcodes) yang dijalankan oleh prosesor."    
+    
+Motto:     
+"Direct contact with the metal" (Kontak langsung dengan mesin).        
+    
+spesialisasi:     
+Kernel development, Driver hardware, Bootloader, optimasi performa ekstrem, dan Reverse Engineering.    
+    
+Extension:     
+.asm, .s    
+    
+Sistem Tipe:     
+Untyped (Semua data dianggap sebagai urutan bit, byte, atau isi register).    
+    
+kepribadian:     
+Sangat mentah, jujur, tidak punya rahasia, dan sama sekali tidak memberikan bantuan atau pengamanan kepada pemrogram.    
+    
+Keunggulan:     
+Kontrol total mutlak terhadap hardware, penggunaan memori paling minimal, dan kecepatan eksekusi yang mustahil dikalahkan oleh bahasa tingkat tinggi.    
+    
+tingkat kesulitan:     
+Sangat Sulit. Memerlukan pemahaman mendalam tentang arsitektur CPU, manajemen register manual, dan tidak adanya fitur modern seperti manajemen memori otomatis.    
+    
+Package Manager:     
+Tidak ada (Biasanya dikelola secara manual atau menggunakan Assembler seperti NASM, MASM, atau GAS).    
+    
+Framework/Library:     
+NASM (Netwide Assembler), MASM (Microsoft Macro Assembler), HLA (High Level Assembly).    
+    
+contoh Proyek terkenal:    
+Bagian inti Kernel Linux, BIOS/UEFI, sistem operasi DOS, dan kode mesin untuk konsol game klasik seperti NES dan Sega Genesis.    
+    
+Popularitas:     
+Rendah/Spesifik. Menjadi bahasa wajib bagi Systems Programmers, Security Researchers, dan pengembang sistem tertanam (Embedded).    
+    
+platform:     
+System, Embedded system, IoT, OS Development, Driver, Security, Reverse Engineering, Bootloaders.    
+    
+Batasan:     
+Sangat sulit dipelihara (maintenance), kode sangat panjang untuk tugas sederhana, dan kodenya tidak portabel (hanya bekerja pada arsitektur CPU tertentu).

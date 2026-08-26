@@ -1,0 +1,54 @@
+====================================== START
+
+Python (1991) – oleh Guido van Rossum    
+
+Contoh kode:    
+def sapa_dunia(nama):
+    return f"Halo, {nama}! Selamat datang di Python."
+
+# List comprehension yang ikonik
+angka_genap = [x for x in range(10) if x % 2 == 0]
+
+print(sapa_dunia("Programmer"))
+print(f"Angka genap: {angka_genap}")
+    
+"Bahasa pemrograman tingkat tinggi yang sangat menekankan keterbacaan kode (readability). Python dikenal dengan filosofi 'batteries included'—artinya ia datang dengan banyak library standar yang siap pakai untuk hampir semua tugas."    
+    
+Motto:     
+"Beautiful is better than ugly. Simple is better than complex." (The Zen of Python)        
+    
+spesialisasi:     
+Data Science, Artificial Intelligence (AI), Machine Learning, Web Backend, dan Automation Scripting.    
+    
+Extension:     
+.py, .pyw, .ipynb (Jupyter Notebook)    
+    
+Sistem Tipe:     
+Dynamic & Strong    
+    
+kepribadian:     
+Sangat ramah, fleksibel, cerdas, dan sangat mementingkan kerapihan (indentasi bukan sekadar gaya, tapi aturan).    
+    
+Keunggulan:     
+Sintaksis yang sangat mirip dengan bahasa Inggris sehingga mudah dipelajari, dukungan komunitas yang masif, serta ekosistem library untuk riset data dan AI yang tidak tertandingi.    
+    
+tingkat kesulitan:     
+Sangat Mudah. Menjadi bahasa favorit bagi pemula untuk belajar dasar-dasar pemrograman tanpa harus dipusingkan oleh sintaksis yang rumit.    
+    
+Package Manager:     
+pip (PyPI), Conda (untuk data science).    
+    
+Framework/Library:     
+Django (Web), Pandas (Data Analysis), TensorFlow/PyTorch (AI/ML).    
+    
+contoh Proyek terkenal:    
+Instagram, YouTube, Spotify (Backend), Dropbox, dan sistem analisis data di NASA.    
+    
+Popularitas:     
+Sangat Tinggi (Peringkat #1 di TIOBE Index saat ini). Digunakan oleh Data Scientists, AI Engineers, Backend Developers, hingga peneliti akademik.    
+    
+platform:     
+General Purpose, Webdev (Be), Data science, Ai, Machine Learning, Scripting, Automation, Clouds, DevOps, Infrastruktur.    
+    
+Batasan:     
+Kecepatan eksekusi yang relatif lambat dibandingkan bahasa terkompilasi (seperti C++ atau Rust) dan masalah Global Interpreter Lock (GIL) yang membatasi performa multi-threading murni.

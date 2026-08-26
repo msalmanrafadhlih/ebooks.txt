@@ -1,0 +1,50 @@
+====================================== START
+
+Fortran (1957) – oleh John Backus (IBM)    
+
+Contoh kode:    
+program hello
+  implicit none
+  print *, 'Hello, World!'
+end program hello
+    
+"Singkatan dari Formula Translation, ini adalah bahasa pemrograman tingkat tinggi pertama di dunia yang masih hidup. Dirancang khusus untuk kebutuhan komputasi ilmiah dan teknik yang sangat berat."    
+    
+Motto:     
+"The pioneer of numerical computing."        
+    
+spesialisasi:     
+Komputasi numerik, analisis statistik, prediksi cuaca, fisika komputasi, dan simulasi teknik.    
+    
+Extension:     
+.f, .for, .f90, .f95, .f03, .f08    
+    
+Sistem Tipe:     
+Static & Strong    
+    
+kepribadian:     
+Sangat matematis, kaku, tradisional, namun sangat efisien dalam menangani angka dan array besar.    
+    
+Keunggulan:     
+Performa eksekusi untuk operasi matriks dan array yang sangat cepat (sering kali mengalahkan C/C++), memiliki library numerik yang sangat matang dan teruji selama puluhan tahun.    
+    
+tingkat kesulitan:     
+Menengah. Mudah dipelajari untuk rumus matematika, namun sulit bagi pengembang modern karena aturan penulisan (seperti spasi dan kolom pada versi lama) yang sangat spesifik.    
+    
+Package Manager:     
+fpm (Fortran Package Manager)    
+    
+Framework/Library:     
+LAPACK (Linear Algebra), BLAS (Basic Linear Algebra Subprograms), IMSL.    
+    
+contoh Proyek terkenal:    
+Model iklim NASA, sistem prediksi cuaca global, simulasi dinamika fluida (CFD) untuk desain pesawat, dan library dasar untuk SciPy (Python).    
+    
+Popularitas:     
+Tinggi di kalangan ilmuwan, fisikawan, dan insinyur komputasi. Jarang digunakan di industri perangkat lunak konsumen umum.    
+    
+platform:     
+General Purpose, Data science, Ai, Machine Learning, System, Infrastruktur, Scientific Computing.    
+    
+Batasan:     
+Sangat tidak fleksibel untuk pengembangan antarmuka grafis (GUI), pengembangan web, atau aplikasi mobile; ekosistemnya sangat terfokus hanya pada angka.

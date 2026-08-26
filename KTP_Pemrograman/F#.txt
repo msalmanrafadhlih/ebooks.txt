@@ -1,0 +1,56 @@
+====================================== START
+
+F# (2005) – oleh Don Syme (Microsoft Research)    
+
+Contoh kode:    
+// Fungsi sederhana dengan pipe operator (|>)
+let kuadrat x = x * x
+let daftarAngka = [1..5]
+
+let hasil = 
+    daftarAngka 
+    |> List.map kuadrat 
+    |> List.filter (fun x -> x > 10)
+
+printfn "Hasil filter: %A" hasil
+    
+"Bahasa pemrograman fungsional-pertama yang berjalan di atas .NET. F# dirancang untuk menulis kode yang ringkas, tangguh, dan berperforma tinggi, menggabungkan kekuatan paradigma fungsional dengan akses penuh ke ekosistem .NET."    
+    
+Motto:     
+"Succinct, robust, and performant."        
+    
+spesialisasi:     
+Analisis data, pemodelan keuangan, backend web fungsional, dan sistem enterprise yang kompleks.    
+    
+Extension:     
+.fs, .fsx (script)    
+    
+Sistem Tipe:     
+Static & Strong (dengan Type Inference yang sangat kuat)    
+    
+kepribadian:     
+Intelek yang pragmatis. F# sangat benci dengan kesalahan logika yang sepele (seperti Null Reference) dan memaksa pemrogram untuk memikirkan semua kemungkinan skenario data secara eksplisit.    
+    
+Keunggulan:     
+Sintaksis yang sangat bersih (minimalis tanpa titik koma atau kurung kurawal berlebih), fitur 'Units of Measure' untuk validasi angka ilmiah, dan integrasi sempurna dengan library C#.    
+    
+tingkat kesulitan:     
+Menengah ke Sulit. Mudah bagi yang sudah mengenal pemrograman fungsional, namun menantang bagi pengembang OOP tradisional karena memerlukan cara berpikir deklaratif.    
+    
+Package Manager:     
+NuGet, Paket.    
+    
+Framework/Library:     
+Giraffe / Saturn (Web), Fable (F# ke JavaScript), SAFE Stack.    
+    
+contoh Proyek terkenal:    
+Sistem perdagangan frekuensi tinggi (HFT) di berbagai institusi finansial, Jet.com (backend e-commerce), dan berbagai alat riset di Microsoft.    
+    
+Popularitas:     
+Menengah (Niche di ekosistem .NET). Sangat dicintai oleh pengembang yang memprioritaskan keamanan tipe dan kejelasan kode di atas popularitas arus utama.    
+    
+platform:     
+General Purpose, Webdev (Be/Fe), Data science, Clouds, DevOps, Infrastruktur, Functional programming.    
+    
+Batasan:     
+Ekosistem dan komunitasnya jauh lebih kecil dibanding C#, dan dukungan alat bantu (IDE) selain Visual Studio/JetBrains Rider terkadang tidak seoptimal bahasa lain.

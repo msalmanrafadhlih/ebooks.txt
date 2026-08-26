@@ -1,0 +1,54 @@
+====================================== START
+
+Erlang (1986) – oleh Joe Armstrong, Robert Virding, dan Mike Williams (Ericsson)    
+
+Contoh kode:    
+-module(hello).
+-export([greet/1]).
+
+greet(Name) ->
+    io:format("Hello, ~s! Let it crash.~n", [Name]).
+
+% Menjalankan proses konkuren
+% spawn(fun() -> greet("Tquilla") end).
+    
+"Bahasa yang dirancang untuk membangun sistem terdistribusi yang sangat masif, toleran terhadap kesalahan (fault-tolerant), dan tidak pernah mati (high availability). Erlang adalah rahasia di balik sistem telekomunikasi dan aplikasi chat skala dunia."    
+    
+Motto:     
+"Let it crash" (Biarkan ia hancur — fokus pada pemulihan sistem daripada mencoba mencegah setiap error kecil).        
+    
+spesialisasi:     
+Sistem telekomunikasi, Server chatting (Real-time messaging), Sistem terdistribusi, dan Infrastruktur backend yang harus aktif 24/7.    
+    
+Extension:     
+.erl, .hrl    
+    
+Sistem Tipe:     
+Dynamic & Strong    
+    
+kepribadian:     
+Sangat tenang namun tangguh. Ia tidak panik saat ada error; ia cukup mematikan proses yang bermasalah dan menyalakannya kembali dalam hitungan milidetik.    
+    
+Keunggulan:     
+Dukungan konkurensi luar biasa melalui 'Actor Model', kemampuan 'Hot Code Swapping' (mengubah kode tanpa mematikan server), dan skalabilitas horizontal yang sangat mudah.    
+    
+tingkat kesulitan:     
+Sulit. Paradigma fungsionalnya sangat berbeda dari bahasa mainstream, dan konsep manajemen proses (OTP) memerlukan pergeseran cara berpikir yang cukup signifikan.    
+    
+Package Manager:     
+Rebar3    
+    
+Framework/Library:     
+OTP (Open Telecom Platform), Cowboy (Web Server), Mnesia (Distributed Database).    
+    
+contoh Proyek terkenal:    
+WhatsApp (Backend utama), RabbitMQ, Ericsson (Sistem Telepon), Discord (Gateways), dan Goldman Sachs (High-frequency trading).    
+    
+Popularitas:     
+Menengah (Niche/Spesifik). Sangat dihormati dan digunakan oleh Distributed Systems Engineers, Backend Architects, dan pengembang sistem telekomunikasi.    
+    
+platform:     
+General Purpose, Webdev (Be), Clouds, DevOps, Infrastruktur, Functional programming, Telecom, Messaging.    
+    
+Batasan:     
+Kurang optimal untuk komputasi numerik yang berat atau grafik, serta memiliki ekosistem library yang tidak sebanding jumlahnya dengan Python atau JavaScript.

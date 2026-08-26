@@ -1,0 +1,56 @@
+====================================== START
+
+Scala (2004) – oleh Martin Odersky    
+
+Contoh kode:    
+object HelloWorld {
+  def main(args: Array[String]): Unit = {
+    val message = "Hello, Scala!"
+    val numbers = List(1, 2, 3, 4, 5)
+    
+    println(message)
+    val doubled = numbers.map(_ * 2)
+    println(s"Doubled numbers: $doubled")
+  }
+}
+    
+"Bahasa yang dirancang untuk menggabungkan paradigma pemrograman berorientasi objek dan fungsional secara mulus. Berjalan di atas JVM, Scala memungkinkan pengembang menulis kode yang sangat ringkas, ekspresif, dan aman untuk sistem terdistribusi skala besar."    
+    
+Motto:     
+"Object-Oriented meets Functional."        
+    
+spesialisasi:     
+Pemrosesan Big Data, Sistem terdistribusi, Backend performa tinggi, dan Data Engineering.    
+    
+Extension:     
+.scala, .sc    
+    
+Sistem Tipe:     
+Static & Strong (dengan Inference yang sangat canggih)    
+    
+kepribadian:     
+Sangat cerdas, kompleks, dan ambisius. Ia adalah 'pisau lipat Swiss' yang berusaha memberikan semua fitur modern dalam satu bahasa, meskipun terkadang terlihat mengintimidasi bagi pemula.    
+    
+Keunggulan:     
+Interoperabilitas penuh dengan Java, sistem tipe yang sangat kuat untuk mencegah error, dan dukungan konkurensi tingkat tinggi yang membuatnya sangat populer di dunia pemrosesan data.    
+    
+tingkat kesulitan:     
+Sulit. Memiliki kurva pembelajaran yang tajam karena menggabungkan konsep OOP dan Functional Programming yang dalam, serta sintaksis yang bisa sangat ringkas namun kompleks.    
+    
+Package Manager:     
+sbt (Scala Build Tool), Mill.    
+    
+Framework/Library:     
+Apache Spark (Big Data), Akka (Concurrency), Play Framework (Web).    
+    
+contoh Proyek terkenal:    
+Infrastruktur Twitter (Backend), Apache Spark, LinkedIn (Data Pipeline), dan sistem rekomendasi Netflix.    
+    
+Popularitas:     
+Tinggi di kalangan profesional. Digunakan oleh Data Engineers, Backend Architects, dan Software Engineers di perusahaan teknologi besar.    
+    
+platform:     
+General Purpose, Webdev (Be), Data science, Clouds, DevOps, Infrastruktur, Functional programming.    
+    
+Batasan:     
+Waktu kompilasi yang relatif lama karena kompleksitas sistem tipenya, dan ekosistem yang terkadang terasa terlalu akademis bagi beberapa pengembang.

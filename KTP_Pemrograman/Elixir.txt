@@ -1,0 +1,60 @@
+====================================== START
+
+Elixir (2011) – oleh José Valim    
+
+Contoh kode:    
+defmodule Sapaan do
+  def halo(nama) do
+    IO.puts "Halo, #{nama}! Selamat datang di dunia konkurensi."
+  end
+
+  def kali_dua(angka) do
+    angka 
+    |> Enum.map(fn x -> x * 2 end) # Pipe operator yang ikonik
+    |> IO.inspect()
+  end
+end
+
+Sapaan.halo("Tquilla")
+Sapaan.kali_dua([1, 2, 3])
+    
+"Bahasa pemrograman dinamis dan fungsional yang dirancang untuk membangun aplikasi yang skalabel dan mudah dipelihara. Elixir berjalan di atas mesin virtual Erlang (BEAM), mewarisi kemampuan untuk menangani jutaan koneksi secara bersamaan dengan toleransi kesalahan yang luar biasa."    
+    
+Motto:     
+"Productivity without sacrificing performance."        
+    
+spesialisasi:     
+Web Backend skala besar, Real-time messaging, Distributed systems, dan IoT (Nerves).    
+    
+Extension:     
+.ex, .exs (Script)    
+    
+Sistem Tipe:     
+Dynamic & Strong    
+    
+kepribadian:     
+Sangat modern, ramah, dan pragmatis. Ia mengambil kekuatan sistem 'low-level' Erlang dan membungkusnya dengan sintaksis yang elegan dan menyenangkan seperti Ruby.    
+    
+Keunggulan:     
+Kemampuan 'Self-healing' (sistem bisa memperbaiki diri jika ada proses yang mati), dukungan konkurensi paling stabil di dunia, dan memiliki framework web (Phoenix) yang performanya jauh melampaui framework tradisional.    
+    
+tingkat kesulitan:     
+Menengah. Mudah dipelajari jika kamu menyukai gaya Ruby, namun butuh waktu untuk memahami konsep pemrograman fungsional murni dan model aktor (Processes).    
+    
+Package Manager:     
+Hex (Mix sebagai build tool).    
+    
+Framework/Library:     
+Phoenix (Web), Ecto (Database), LiveView (Real-time UI tanpa JS berat).    
+    
+contoh Proyek terkenal:    
+Discord (untuk sistem chat masif), Pinterest, PagerDuty, dan sistem backend di berbagai startup teknologi finansial.    
+    
+Popularitas:     
+Tinggi (Favorit di kalangan Backend Architect). Digunakan oleh pengembang yang membutuhkan sistem yang tidak boleh 'down' dan sangat skalabel.    
+    
+platform:     
+Webdev (Be), Clouds, DevOps, Infrastruktur, Functional programming, Messaging, IoT.    
+    
+Batasan:     
+Ekosistem library pihak ketiga tidak sebesar JavaScript atau Python, dan memerlukan pemahaman tentang VM Erlang jika ingin melakukan optimasi mendalam pada sistem.

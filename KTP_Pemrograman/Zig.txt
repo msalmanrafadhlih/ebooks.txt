@@ -1,0 +1,60 @@
+====================================== START
+
+Zig (2016) – oleh Andrew Kelley    
+
+Contoh kode:    
+const std = @import("std");
+
+pub fn main() !void {
+    const stdout = std.io.getStdOut().writer();
+    try stdout.print("Hello, {s}!\n", .{"Zig"});
+
+    // Comptime: Kode ini dijalankan saat kompilasi
+    const result = comptime add(5, 10);
+    try stdout.print("Hasil comptime: {}\n", .{result});
+}
+
+fn add(a: i32, b: i32) i32 {
+    return a + b;
+}
+    
+"Bahasa pemrograman sistem yang dirancang untuk menjadi penerus C yang lebih tangguh. Zig fokus pada kejelasan kode tanpa 'hidden control flow' atau alokasi memori tersembunyi, memberikan kontrol penuh kepada pengembang dengan cara yang sangat transparan."    
+    
+Motto:     
+"No hidden control flow, no hidden memory allocations, no preprocessor, no macros."        
+    
+spesialisasi:     
+Systems programming, pengembangan Kernel, Driver, High-performance toolchains, dan pengganti C modern.    
+    
+Extension:     
+.zig    
+    
+Sistem Tipe:     
+Static & Strong    
+    
+kepribadian:     
+Sangat jujur dan transparan. Zig benci kejutan; ia ingin kamu tahu persis apa yang terjadi pada CPU dan Memori di setiap baris kode yang kamu tulis.    
+    
+Keunggulan:     
+Fitur 'Comptime' yang revolusioner (kemampuan menjalankan kode saat kompilasi), interoperabilitas C yang sempurna (Zig bisa mengkompilasi file .c langsung), dan build system yang terintegrasi tanpa perlu Makefile tambahan.    
+    
+tingkat kesulitan:     
+Sulit. Meskipun lebih sederhana secara sintaksis dibanding C++ atau Rust, kamu tetap harus mengelola memori secara manual dan memahami konsep sistem tingkat rendah secara mendalam.    
+    
+Package Manager:     
+Zig Build System (terintegrasi).    
+    
+Framework/Library:     
+Zap (Web framework sangat cepat), Mach (Game engine), Bun (JS Runtime yang dibuat menggunakan Zig).    
+    
+contoh Proyek terkenal:    
+Bun (JavaScript runtime), TigerBeetle (Database keuangan), dan toolchain kompilasi untuk Uber.    
+    
+Popularitas:     
+Sedang (Trending/Rising Star). Sangat diminati oleh pengembang sistem yang merasa C++ terlalu kompleks dan Rust terlalu membatasi.    
+    
+platform:     
+System, WebAssembly (Wasm), Embedded system, DesktopApps, Infrastruktur, GameDev.    
+    
+Batasan:     
+Masih dalam tahap pengembangan aktif (belum versi 1.0), sehingga sering terjadi perubahan besar pada API (breaking changes), dan ekosistem library-nya masih terus tumbuh.

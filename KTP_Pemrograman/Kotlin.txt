@@ -1,0 +1,53 @@
+====================================== START
+
+Kotlin (2011) – oleh JetBrains    
+
+Contoh kode:    
+fun main() {
+    val message = "Hello, Kotlin!"
+    val numbers = listOf(1, 2, 3)
+    
+    println("$message")
+    numbers.filter { it > 1 }.forEach { println("Angka: $it") }
+}
+    
+"Bahasa modern yang dirancang untuk sepenuhnya kompatibel dengan Java namun dengan sintaksis yang jauh lebih ringkas dan aman. Kotlin kini menjadi bahasa kelas satu (first-class) untuk pengembangan Android."    
+    
+Motto:     
+"Pragmatic, concise, and safe."        
+    
+spesialisasi:     
+Android Development, Backend (JVM), dan Multiplatform Mobile Development.    
+    
+Extension:     
+.kt, .kts    
+    
+Sistem Tipe:     
+Static & Strong (dengan fitur Built-in Null Safety)    
+    
+kepribadian:     
+Modern, ekspresif, dan sangat pengertian—ia berusaha mencegah kesalahan umum seperti NullPointerException secara proaktif.    
+    
+Keunggulan:     
+Interoperabilitas 100% dengan Java, fitur Null Safety yang kuat, Coroutines untuk pemrograman asinkron yang mudah, dan kode yang jauh lebih sedikit (less boilerplate) dibanding Java.    
+    
+tingkat kesulitan:     
+Mudah ke Menengah. Sangat mudah dipelajari jika sudah mengenal Java, namun memiliki fitur canggih seperti Functional Programming dan DSL yang butuh waktu untuk dikuasai.    
+    
+Package Manager:     
+Gradle, Maven.    
+    
+Framework/Library:     
+Ktor (Asynchronous Web), Compose Multiplatform (UI), Spring Boot (Backend).    
+    
+contoh Proyek terkenal:    
+Aplikasi Android (seperti Trello, Pinterest, Netflix), JetBrains IDE (IntelliJ IDEA), dan Spring Framework (dukungan native).    
+    
+Popularitas:     
+Sangat Tinggi. Menjadi standar industri bagi Android Developers dan mulai banyak diadopsi oleh Backend Engineers yang ingin modernisasi dari Java.    
+    
+platform:     
+General Purpose, Webdev (Be/Fe), MobileDev (Android, iOS - via Multiplatform), DesktopApps, Scripting, Functional programming.    
+    
+Batasan:     
+Kecepatan kompilasi (terutama pada proyek besar) terkadang lebih lambat dibanding Java, dan ukuran file binari (runtime library) yang sedikit menambah beban pada aplikasi kecil.

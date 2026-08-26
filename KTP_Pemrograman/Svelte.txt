@@ -1,0 +1,62 @@
+====================================== START
+
+Svelte (2016) – oleh Rich Harris (kini di Vercel)
+
+Contoh kode :
+<script>
+    let count = $state(0);
+    let double = $derived(count * 2);
+
+    function increment() {
+        count += 1;
+    }
+</script>
+
+<button onclick={increment}>
+    Klik: {count} (Double: {double})
+</button>
+
+<style>
+    button { color: #ff3e00; font-weight: bold; }
+</style>
+
+"Bukan sekadar framework, melainkan sebuah compiler. Svelte mengubah cara kerja aplikasi web dengan memindahkan beban kerja dari browser ke tahap kompilasi, menghasilkan kode JavaScript murni yang sangat cepat tanpa perlu Virtual DOM yang berat."
+
+Motto:
+"Cybernetically enhanced web apps." (Aplikasi web yang ditingkatkan secara sibernetik).
+
+spesialisasi:
+User Interface (UI) berperforma tinggi, Dashboard interaktif, Visualisasi data, dan aplikasi web yang sangat ringan.
+
+Extension:
+.svelte
+
+Sistem Tipe:
+Static (TypeScript support) & Dynamic (JavaScript).
+
+kepribadian:
+Sangat efisien, jujur, dan 'to-the-point'. Svelte benci boilerplate; ia ingin kamu menulis kode sesedikit mungkin tapi mendapatkan hasil semaksimal mungkin. Dengan Svelte 5 (Runes), ia jadi makin reaktif dan dewasa.
+
+Keunggulan:
+Tanpa Virtual DOM (langsung menyentuh DOM), ukuran bundle yang sangat kecil, sintaksis yang sangat mirip HTML/JS standar, dan manajemen 'state' yang sangat mudah bahkan untuk aplikasi yang sangat kompleks.
+
+tingkat kesulitan:
+Mudah. Bagi kamu yang sudah menguasai Fullstack JS, belajar Svelte akan terasa seperti 'napas segar' karena kodenya sangat intuitif dan tidak banyak 'magic' yang membingungkan.
+
+Package Manager:
+npm, pnpm, yarn, bun.
+
+Framework/Library:
+SvelteKit (Full-stack framework), Lucide Svelte, Melt UI, Shadcn-Svelte.
+
+contoh Proyek terkenal:
+The New York Times (untuk grafik interaktif), Apple Music (beberapa bagian), Spotify, Cloudflare, dan dashboard performa di berbagai startup teknologi.
+
+Popularitas:
+Sangat Tinggi (Pemenang 'Most Loved Framework' di berbagai survei). Menjadi alternatif paling kuat bagi mereka yang ingin pindah dari kerumitan React.
+
+platform:
+Web (Fe/Be via SvelteKit), Desktop (via Tauri/Electron), Mobile (via Capacitor).
+
+Batasan:
+Ekosistem library pihak ketiga (seperti komponen UI siap pakai) tidak sebanyak React, dan karena ia adalah compiler, beberapa integrasi toolchain mungkin memerlukan konfigurasi khusus.

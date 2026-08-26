@@ -1,0 +1,56 @@
+====================================== START
+
+Visual Basic (1991) – oleh Alan Cooper & Microsoft    
+
+Contoh kode:    
+Module Hello
+    Sub Main()
+        Dim nama As String = "Programmer"
+        Console.WriteLine("Halo, " & nama & "!")
+        
+        If 10 > 5 Then
+            Console.WriteLine("Visual Basic sangat mudah dibaca!")
+        End If
+    End Sub
+End Module
+    
+"Pelopor pengembangan aplikasi berbasis GUI (Graphical User Interface) yang revolusioner. Visual Basic dirancang untuk memungkinkan siapa saja membangun aplikasi Windows dengan cepat melalui pendekatan drag-and-drop dan kode yang sangat mirip bahasa Inggris."    
+    
+Motto:     
+"Programming for everyone." (Pemrograman untuk semua orang).        
+    
+spesialisasi:     
+Aplikasi Desktop Windows, sistem internal perusahaan (Enterprise), dan otomatisasi perkantoran.    
+    
+Extension:     
+.vb, .vbs (Script), .vbp (Project), .frm (Form)    
+    
+Sistem Tipe:     
+Static/Dynamic & Strong (pada versi .NET)    
+    
+kepribadian:     
+Sangat ramah, cerewet (verbose), tidak teknis, dan sangat pemaaf terhadap kesalahan sintaksis kecil.    
+    
+Keunggulan:     
+Kecepatan luar biasa dalam membuat antarmuka pengguna (Rapid Application Development), sangat mudah dipelajari oleh orang awam, dan integrasi sempurna dengan Microsoft Office.    
+    
+tingkat kesulitan:     
+Sangat Mudah. Bahasanya didesain sedemikian rupa agar orang yang tidak memiliki latar belakang ilmu komputer pun bisa membuat program fungsional.    
+    
+Package Manager:     
+NuGet (untuk versi VB.NET)    
+    
+Framework/Library:     
+WinForms (GUI), .NET Framework, ADO.NET (Database).    
+    
+contoh Proyek terkenal:    
+Ribuan aplikasi kasir (POS), sistem inventaris rumah sakit, perangkat lunak akuntansi lama, dan makro otomatisasi di Microsoft Excel (VBA).    
+    
+Popularitas:     
+Menengah ke Rendah (Legacy). Meskipun sudah mulai ditinggalkan untuk proyek baru, ia masih sangat banyak digunakan untuk pemeliharaan sistem lama di perusahaan besar.    
+    
+platform:     
+DesktopApps, Database, Scripting, Automation, Webdev (Be).    
+    
+Batasan:     
+Sangat terikat dengan ekosistem Windows, dianggap kurang efisien untuk komputasi berat, dan dukungan dari komunitas modern mulai beralih sepenuhnya ke C#.

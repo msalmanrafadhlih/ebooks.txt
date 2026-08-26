@@ -1,0 +1,64 @@
+Gleam (2020) – oleh Louis Pilfold
+
+Contoh Kode:
+
+```.gleam
+import gleam/io
+import gleam/int
+
+pub type Developer {
+  Developer(name: String, os: String)
+}
+
+pub fn main() {
+  let user = Developer(name: "Tquilla", os: "NixOS")
+  
+  io.print("Halo, " <> user.name <> "! ")
+  
+  case user.os {
+    "NixOS" -> io.println("Setup sistemmu pasti solid banget.")
+    _ -> io.println("Selamat mencoba Gleam!")
+  }
+}
+```
+
+"Bahasa pemrograman fungsional modern yang dirancang untuk membangun sistem konkuren yang aman dan toleran terhadap kegagalan (fault-tolerant). Gleam menggabungkan kekuatan Erlang VM (BEAM) dengan keamanan sistem tipe data ketat ala Rust/TypeScript, serta bisa dikompilasi langsung ke JavaScript."
+
+Motto:
+"Lucid, robust, and friendly." (Jelas, tangguh, dan ramah).
+
+spesialisasi:
+Sistem backend konkuren skala besar, microservices, aplikasi web real-time, dan full-stack web (via JS target).
+
+Extension:
+.gleam
+
+Sistem Tipe:
+Static & Strong (Type inference yang sangat cerdas tanpa aneh-aneh).
+
+kepribadian:
+Sangat ramah tapi punya prinsip kuat. Ia tidak suka kejutan saat runtime (seperti null pointer atau exception tersembunyi). Sintaksisnya sangat bersih dan modern, tidak seperti bahasa fungsional tradisional yang penuh simbol matematika.
+
+Keunggulan:
+Berjalan di atas BEAM VM yang legendaris untuk menangani jutaan proses simultan tanpa crash, performa tinggi, interop yang mulus dengan Elixir/Erlang, dan compiler JavaScript-nya menghasilkan kode yang sangat bersih untuk ekosistem Node.js/Bun.
+
+tingkat kesulitan:
+Menengah. Jauh lebih mudah dipelajari daripada Haskell atau OCaml karena tidak memiliki konsep super abstrak seperti Monad. Sangat ramah untuk pengguna Rust atau TypeScript.
+
+Package Manager:
+Gleam build tool (terintegrasi dengan Hex.pm).
+
+Framework/Library:
+Lustre (Frontend ala Elm architecture), Wisp (Backend web framework), Tarear (Concurrency).
+
+contoh Proyek terkenal:
+Sistem backend telemetri modern, platform chat real-time, dan perkakas otomasi web.
+
+Popularitas:
+Meningkat pesat (Rising Star sejak rilis versi 1.0). Sangat diminati oleh komunitas fungsional dan developer yang mencari alternatif Elixir dengan pengetikan kuat (statically typed).
+
+platform:
+BEAM (Erlang VM), JavaScript (Node.js, Deno, Bun, Browser), Backend, Cloud/Edge.
+
+Batasan:
+Ekosistem library pihak ketiga masih berkembang dan relatif kecil jika dibandingkan dengan ekosistem JavaScript murni atau Elixir.

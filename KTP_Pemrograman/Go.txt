@@ -1,0 +1,56 @@
+====================================== START
+
+Go (2009) – oleh Robert Griesemer, Rob Pike, dan Ken Thompson (Google)    
+
+Contoh kode:    
+package main
+
+import "fmt"
+
+func main() {
+    messages := []string{"Simplicity", "Concurrency", "Speed"}
+    for _, msg := range messages {
+        fmt.Printf("Go is built for: %s\n", msg)
+    }
+}
+    
+"Bahasa yang dirancang untuk efisiensi pengembangan perangkat lunak skala besar. Go menggabungkan kemudahan penulisan bahasa dinamis dengan performa dan keamanan bahasa statis, menjadikannya standar emas untuk infrastruktur cloud modern."    
+    
+Motto:     
+"Do more with less" (Lakukan lebih banyak dengan lebih sedikit).        
+    
+spesialisasi:     
+Cloud-native computing, Microservices, Backend development, dan sistem terdistribusi skala besar.    
+    
+Extension:     
+.go    
+    
+Sistem Tipe:     
+Static & Strong    
+    
+kepribadian:     
+Sangat pragmatis, bersih, tegas (opinionated), dan sangat benci kode yang bertele-tele atau fitur yang tidak perlu.    
+    
+Keunggulan:     
+Dukungan konkurensi tingkat tinggi melalui Goroutines yang sangat ringan, proses kompilasi menjadi satu file binari tunggal yang mandiri, dan waktu kompilasi yang super cepat.    
+    
+tingkat kesulitan:     
+Mudah. Go memiliki sintaksis yang sangat sedikit (hanya sekitar 25 keyword), sehingga mudah dipelajari dengan cepat oleh developer dari bahasa manapun.    
+    
+Package Manager:     
+Go Modules (go mod)    
+    
+Framework/Library:     
+Gin (Web Framework), Gorm (ORM), Echo.    
+    
+contoh Proyek terkenal:    
+Docker, Kubernetes, Terraform, Prometheus, dan Twitch (Backend).    
+    
+Popularitas:     
+Sangat Tinggi. Menjadi bahasa utama bagi Cloud Architects, DevOps Engineers, dan Backend Software Engineers di perusahaan teknologi global.    
+    
+platform:     
+General Purpose, Webdev (Be), Clouds, DevOps, Infrastruktur, Automation, Database, System.    
+    
+Batasan:     
+Manajemen error yang sering dianggap repetitif (penulisan 'if err != nil' yang berulang), dan kurang optimal untuk tugas-tugas yang sangat intensif pada GUI atau Desktop development.

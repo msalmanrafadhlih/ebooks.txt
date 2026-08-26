@@ -1,0 +1,56 @@
+====================================== START
+
+VBA (1993) – oleh Microsoft (Visual Basic for Applications)
+
+' Contoh kode: Otomasi sederhana di Excel
+Sub SapaUser()
+    Dim nama As String
+    nama = Cells(1, 1).Value ' Mengambil data dari cell A1
+    
+    If nama <> "" Then
+        MsgBox "Halo " & nama & "! VBA siap membantu pekerjaan kantormu.", vbInformation, "VBA Greeting"
+    Else
+        MsgBox "Cell A1 kosong, nih!", vbExclamation
+    End If
+End Sub
+
+"Bahasa otomasi yang hidup di dalam ekosistem Microsoft Office. VBA adalah pahlawan di balik layar yang mengubah spreadsheet Excel yang membosankan menjadi aplikasi bisnis yang kuat, otomatis, dan terkadang sangat kompleks."
+
+Motto: 
+"Automating the world, one spreadsheet at a time."
+
+spesialisasi: 
+Otomasi Microsoft Office (Excel, Access, Word), Pemodelan Keuangan, Pelaporan Otomatis, dan Tool internal perusahaan.
+
+Extension: 
+.vba, .bas, .cls (Sering kali tersimpan di dalam file .xlsm, .docm, atau .accdb)
+
+Sistem Tipe: 
+Static & Weak (Mendukung tipe 'Variant' yang bisa jadi apa saja).
+
+kepribadian: 
+Seorang asisten kantor senior yang sangat setia. Ia mungkin terlihat sedikit kuno di mata programmer modern, tapi ia tahu seluk-beluk data perusahaan dan bisa melakukan hal-hal ajaib dengan tabel yang tidak bisa dilakukan bahasa lain dengan sekali klik.
+
+Keunggulan: 
+Sudah terpasang di hampir setiap komputer kantor di dunia, integrasi objek Office yang sangat dalam, dan memiliki fitur 'Macro Recorder' yang memungkinkan orang awam membuat kode tanpa mengetik.
+
+tingkat kesulitan: 
+Sangat Mudah. Bahasanya sangat mirip dengan instruksi bahasa Inggris sederhana, menjadikannya gerbang pertama bagi banyak orang di dunia korporat untuk mengenal logika pemrograman.
+
+Package Manager: 
+Tidak ada (Biasanya menggunakan 'References' untuk memanggil library DLL atau COM).
+
+Framework/Library: 
+Excel Object Model, ADO (untuk koneksi database), WinAPI (untuk fungsi tingkat lanjut Windows).
+
+contoh Proyek terkenal: 
+Sistem akuntansi perusahaan menengah, model risiko keuangan di bank investasi, dashboard laporan otomatis, dan ribuan 'Macro' yang menjaga roda bisnis tetap berputar.
+
+Popularitas: 
+Sangat Tinggi di dunia bisnis/kantor, namun rendah di komunitas software engineer profesional. Tetap menjadi skill "wajib" bagi analis data dan akuntan.
+
+platform: 
+Desktop (Windows & macOS - terbatas), Microsoft Office.
+
+Batasan: 
+Sangat terikat pada ekosistem Microsoft, sulit untuk dikelola dengan Git (version control), memiliki risiko keamanan (serangan macro virus), dan performanya tidak cocok untuk pengolahan data masif.

@@ -1,0 +1,58 @@
+====================================== START
+
+Ruby (1995) – oleh Yukihiro "Matz" Matsumoto    
+
+Contoh kode:    
+class Programmer
+  def initialize(name)
+    @name = name
+  end
+
+  def say_hello
+    puts "Halo, nama saya #{@name}. Ruby sangat menyenangkan!"
+  end
+end
+
+me = Programmer.new("Tquilla")
+me.say_hello
+    
+"Bahasa yang dirancang untuk kebahagiaan pengembang. Ruby memiliki sintaksis yang sangat elegan, terbaca seperti bahasa Inggris, dan memperlakukan segala sesuatunya sebagai objek."    
+    
+Motto:     
+"Matz is nice and so we are nice" (MINASWAN).        
+    
+spesialisasi:     
+Web Development (server-side), Scripting, dan Prototyping cepat.    
+    
+Extension:     
+.rb    
+    
+Sistem Tipe:     
+Dynamic & Strong    
+    
+kepribadian:     
+Sangat sopan, puitis, fleksibel (malleable), dan sangat memanjakan perasaan pengembangnya.    
+    
+Keunggulan:     
+Produktivitas luar biasa tinggi, memiliki framework web yang sangat berpengaruh (Rails), dan komunitas yang sangat mementingkan etika serta kebersihan kode.    
+    
+tingkat kesulitan:     
+Mudah. Fokusnya pada bahasa manusia membuatnya sangat intuitif bagi pemula, meskipun memahami "magic" di balik framework-nya bisa memakan waktu.    
+    
+Package Manager:     
+RubyGems (gem), Bundler.    
+    
+Framework/Library:     
+Ruby on Rails (RoR), Sinatra, RSpec.    
+    
+contoh Proyek terkenal:    
+GitHub, Airbnb, Shopify, Twitch (versi awal), dan Hulu.    
+    
+Popularitas:     
+Tinggi. Sangat populer di kalangan startup dan perusahaan teknologi yang mengutamakan kecepatan pengembangan (rapid development).    
+    
+platform:     
+Webdev (Be), Scripting, Automation, Clouds, DevOps.    
+    
+Batasan:     
+Kecepatan eksekusi yang relatif lebih lambat dibandingkan bahasa yang dikompilasi (seperti C++ atau Go) dan penggunaan memori yang cukup tinggi.

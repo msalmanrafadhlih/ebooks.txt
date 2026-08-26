@@ -1,0 +1,56 @@
+====================================== START
+
+Julia (2012) – oleh Jeff Bezanson, Stefan Karpinski, Viral B. Shah, dan Alan Edelman    
+
+Contoh kode:    
+function sapa_dunia(nama)
+    println("Halo, $nama! Julia meluncur secepat C.")
+end
+
+# Operasi vektor yang sangat efisien
+angka = [1, 2, 3, 4, 5]
+hasil = angka .^ 2  # Menghitung kuadrat setiap elemen
+
+sapa_dunia("Programmer")
+println("Hasil kuadrat: $hasil")
+    
+"Bahasa tingkat tinggi berperforma tinggi yang dirancang untuk komputasi numerik dan ilmiah. Julia diciptakan untuk menyelesaikan 'masalah dua bahasa'—di mana pengembang biasanya menulis prototipe di bahasa lambat (seperti Python) lalu menulis ulang di bahasa cepat (seperti C++) untuk produksi."    
+    
+Motto:     
+"Looks like Python, feels like Lisp, runs like C."        
+    
+spesialisasi:     
+Komputasi ilmiah, Data Science, Machine Learning, Fisika komputasi, dan Analisis numerik skala besar.    
+    
+Extension:     
+.jl    
+    
+Sistem Tipe:     
+Dynamic, Parametric, & Strong    
+    
+kepribadian:     
+Sangat cerdas dan ambisius. Ia memiliki sintaksis yang elegan seperti bahasa skrip namun memiliki kekuatan mesin tempur di balik layarnya.    
+    
+Keunggulan:     
+Kecepatan eksekusi yang mendekati C, fitur 'Multiple Dispatch' yang sangat kuat untuk fleksibilitas kode, dan dukungan bawaan yang luar biasa untuk paralelisasi dan komputasi terdistribusi.    
+    
+tingkat kesulitan:     
+Menengah. Sangat mudah dipelajari bagi pengguna Python atau R, namun mengoptimalkan performa (seperti menghindari tipe data abstrak) memerlukan pemahaman teknis yang lebih dalam.    
+    
+Package Manager:     
+Pkg (bawaan Julia)    
+    
+Framework/Library:     
+Flux.jl (Machine Learning), DifferentialEquations.jl, Genie.jl (Web Framework).    
+    
+contoh Proyek terkenal:    
+Celeste (proyek astronomi untuk memetakan alam semesta), CliMA (model iklim global), dan berbagai sistem analisis risiko di industri keuangan.    
+    
+Popularitas:     
+Tinggi (Terus meningkat di bidang akademik dan riset). Digunakan oleh Data Scientists, Research Engineers, Fisikawan, dan Quantitative Analysts.    
+    
+platform:     
+General Purpose, Data science, Ai, Machine Learning, Scripting, Automation, Clouds, Scientific Computing.    
+    
+Batasan:     
+Masalah 'Time to First Plot' (latensi saat kompilasi pertama kali/JIT), serta ekosistem library umum (seperti untuk pengembangan aplikasi mobile atau desktop GUI) yang belum selengkap Python atau JavaScript.

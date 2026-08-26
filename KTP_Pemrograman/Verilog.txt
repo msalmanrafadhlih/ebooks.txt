@@ -1,0 +1,58 @@
+====================================== START
+
+Verilog (1984) – oleh Prabhu Goel & Phil Moorby (Gateway Design Automation)
+
+Contoh kode:    
+module and_gate (
+    input a, 
+    input b, 
+    output out
+);
+    assign out = a & b;
+endmodule
+
+// Contoh logika sekuensial
+always @(posedge clk) begin
+    if (reset)
+        counter <= 0;
+    else
+        counter <= counter + 1;
+end
+    
+"Bukan sekadar bahasa pemrograman, melainkan Hardware Description Language (HDL). Verilog digunakan untuk mendeskripsikan struktur dan perilaku sirkuit digital, mulai dari gerbang logika sederhana hingga prosesor komputer yang sangat kompleks."    
+    
+Motto:     
+"Designing the silicon that runs the code."        
+    
+spesialisasi:     
+Desain Chip (ASIC), Pemrograman FPGA, Verifikasi Perangkat Keras, dan Arsitektur Komputer.    
+    
+Extension:     
+.v, .vh (header)    
+    
+Sistem Tipe:     
+Static & Hardware-oriented (Logic levels: 0, 1, X, Z)    
+    
+kepribadian:     
+Sangat presisi dan 'paralel'. Verilog tidak berpikir baris demi baris secara berurutan, melainkan berpikir tentang kabel dan komponen yang bekerja secara bersamaan dalam waktu yang sama.    
+    
+Keunggulan:     
+Sintaksis yang mirip dengan bahasa C sehingga lebih mudah dipelajari oleh programmer software, sangat efisien untuk simulasi logika, dan merupakan standar industri di dunia manufaktur semikonduktor.    
+    
+tingkat kesulitan:     
+Sulit. Tantangan terbesarnya bukan pada sintaksis, tetapi pada pergeseran pola pikir dari software (sekuensial) ke hardware (konkurensi murni) dan manajemen waktu (timing).    
+    
+Alat Bantu/Simulator:     
+Vivado, Quartus, Icarus Verilog, Verilator (untuk simulasi cepat).    
+    
+contoh Proyek terkenal:     
+Desain prosesor Intel/AMD, GPU NVIDIA, kontroler SSD, dan hampir semua perangkat elektronik modern yang menggunakan sirkuit digital kustom.    
+    
+Popularitas:     
+Sangat Tinggi di bidang Teknik Elektro dan Computer Engineering. Wajib dikuasai oleh Silicon Engineers dan FPGA Developers.    
+    
+platform:     
+Hardware, FPGA, ASIC, System-on-Chip (SoC), Embedded system.    
+    
+Batasan:     
+Sangat mudah membuat bug yang sulit dideteksi jika tidak memahami konsep hardware secara fisik, dan tidak cocok untuk pengembangan aplikasi software umum (desktop/web/mobile).
