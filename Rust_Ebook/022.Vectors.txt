@@ -1,0 +1,97 @@
+====================================== START
+
+# Vectors
+A vector is a resizable array. Unlike regular arrays, vectors can grow or shrink in size.
+
+1. Creating a Vector
+To create a vector, use the vec! macro.
+> This creates a vector with three string elements.
+
+Example:
+let fruits = vec!["apple", "banana", "orange"];
+
+2. Access Vector Elements
+You can access values in a vector using index numbers (just like arrays):
+
+Example:
+let fruits = vec!["apple", "banana", "orange"];
+println!("First fruit: {}", fruits[0]);
+
+3. Change Vector Values
+To change a value in the vector, refer to the index number and assign a new value.
+- Remember to make the vector mutable (using the mut keyword):
+
+Example:
+let mut fruits = vec!["apple", "banana", "orange"];
+fruits[0] = "grape";
+println!("New first fruit: {}", fruits[0]);
+
+4. Add Elements to a Vector
+You can add a new element to the end of a vector using the push() method:
+
+Example:
+let mut fruits = vec!["apple", "banana"];
+fruits.push("cherry");
+println!("{:?}", fruits); // ["apple", "banana", "cherry"]
+
+5. Remove Elements from a Vector
+To remove the last element from a vector, use pop():
+
+Example:
+let mut fruits = vec!["apple", "banana", "cherry"];
+fruits.pop();
+println!("{:?}", fruits); // ["apple", "banana"]
+
+6. Add or Remove Elements at a Specified Index
+Rust vectors are designed to grow and shrink at the end, but you can also add or remove elements at the beginning or at a specified index.
+- Use insert() to add an item at a specified index:
+
+Example
+Add "apple" to the beginning of the vector:
+
+let mut fruits = vec!["banana", "orange"];
+fruits.insert(0, "apple");
+println!("{:?}", fruits); // ["apple", "banana", "orange"]
+
+
+Example
+Add "apple" in the middle of the vector:
+
+let mut fruits = vec!["banana", "orange"];
+fruits.insert(1, "apple");
+println!("{:?}", fruits); // ["banana", "apple", "orange"]
+
+
+7. Remove the First Item
+Use remove() to remove an element from a specified index:
+
+Example
+Remove the first item in the vector:
+
+let mut fruits = vec!["apple", "banana", "orange"];
+fruits.remove(0);
+println!("{:?}", fruits); // ["banana", "orange"]
+
+> Note: Adding or removing elements from the beginning is slower than at the end, because all the other elements have to shift positions.
+
+8. Vector Length
+You can find out how many elements there are in a vector using the .len() method:
+
+Example:
+let fruits = vec!["apple", "banana", "cherry"];
+println!("There are {} fruits.", fruits.len());
+
+9. Loop Through a Vector
+Just like arrays, you can use a for loop to go through all the values in a vector:
+
+Example:
+let fruits = vec!["apple", "banana", "orange"];
+for fruit in &fruits {
+  println!("I like {}.", fruit);
+}
+
+> Note: Use &fruits to borrow the vector instead of moving it.
+
+> In Rust, borrowing means using a reference to a value instead of taking ownership of it. When you loop through a vector without &, the values are moved out, and you can no longer use the vector. But when you borrow the vector using &, you can still use it later in your program.
+
+You can learn more about ownership in our chapters on Ownership and Borrowing and References.

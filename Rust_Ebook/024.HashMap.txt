@@ -1,0 +1,92 @@
+====================================== START
+
+# HashMap
+A HashMap is a collection of key/value pairs.
+- HashMaps are great when you want to store values and find them by a key.
+- To use HashMap, you must import it from Rust's standard library:
+
+use std::collections::HashMap;
+
+1. Create a HashMap
+You can create a new, empty HashMap and add items to it:
+
+Example:
+// Import HashMap
+use std::collections::HashMap;
+
+fn main() {
+  // Create a HashMap called capitalCities
+  let mut capitalCities = HashMap::new();
+
+  // Add keys and values (Country, City)
+  capitalCities.insert("England", "London");
+  capitalCities.insert("Germany", "Berlin");
+  capitalCities.insert("Norway", "Oslo");
+
+  println!("{:?}", capitalCities);
+}
+
+2. Access Values
+You can use the .get() method to access a value in a HashMap by its key:
+Example:
+let mut capitalCities = HashMap::new();
+
+capitalCities.insert("England", "London");
+capitalCities.insert("Germany", "Berlin");
+capitalCities.insert("Norway", "Oslo");
+
+if let Some(city) = capitalCities.get("England") {
+  println!("The capital of England is {}.", city);
+} else {
+  println!("England is not in the map.");
+}
+
+3. Update Values
+If you insert a new value using a key that already exists, the old value is replaced with the new one:
+
+Example:
+let mut capitalCities = HashMap::new();
+
+capitalCities.insert("England", "London");
+capitalCities.insert("England", "Berlin");
+
+println!("{:?}", capitalCities);
+
+4. Remove Values
+To remove a key from a HashMap, use the .remove() method:
+
+Example:
+let mut capitalCities = HashMap::new();
+
+// Add keys and values (Country, City)
+capitalCities.insert("England", "London");
+capitalCities.insert("Germany", "Berlin");
+capitalCities.insert("Norway", "Oslo");
+
+// Remove the key "England"
+capitalCities.remove("England");
+
+println!("{:?}", capitalCities);
+
+5. Loop Through a HashMap
+You can use a for loop to go through all key/value pairs:
+
+Example:
+let mut capitalCities = HashMap::new();
+
+// Add keys and values (Country, City)
+capitalCities.insert("England", "London");
+capitalCities.insert("Germany", "Berlin");
+capitalCities.insert("Norway", "Oslo");
+
+// Loop through the HashMap
+for (country, city) in &capitalCities {
+  println!("The capital of {} is {}.", country, city);
+}
+
+# Why Use HashMaps?
+    To store data by key
+    To quickly look up values
+    To group related data (like names and scores)
+
+> Note: HashMaps require keys to be unique. Inserting the same key again will overwrite the old value.
